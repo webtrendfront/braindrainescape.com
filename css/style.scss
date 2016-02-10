@@ -608,6 +608,8 @@ header {
         padding-top: 200px;
         .tabs {
             ul {
+                margin:0;
+                padding: 0;
                 li {
                     width: 14.4%;
                     margin: 0 15px;
@@ -1549,6 +1551,7 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 	.rooms .room_item {
 		height:480px;
 	}
+    
 }
 
 @media (min-width: 1366px) and (max-width: 1570px) {
@@ -1593,6 +1596,20 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 	.rooms .room_item {
 		height:400px;
 	}
+    .booknow.page {
+        padding-top: 140px;
+    }
+    .booknow.page .tabs {
+        ul {
+            li {
+                margin: 0 10px;
+                margin-bottom: 30px;
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -1600,6 +1617,21 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 
 
 @media (min-width: 991px) and (max-width: 1366px) {
+    .booknow.page {
+        padding-top: 140px;
+    }
+    .booknow.page .tabs {
+        ul {
+            li {
+                margin: 0 10px;
+                margin-bottom: 30px;
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+            
 	nav .main_menu .menu li {
 		margin-right: 15px;
 		a {
@@ -1672,6 +1704,9 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
+    .booknow.page {
+        padding-top: 140px;
+    }
 	.rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
 		padding: 21px 0 16px 32px;
 		margin-right: -7px;
@@ -1691,6 +1726,21 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
+    .booknow.page {
+        padding-top: 120px;
+    }
+    .booknow.page .tabs {
+        ul {
+            li {
+                margin: 0 5px;
+                margin-bottom: 30px;
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
     .contacts.page {
         .btn {
            font-size: 14px;
@@ -1731,6 +1781,7 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 	.booknow #calendar .calendar_day .hour {
 		width:80px;
 	}
+    
 }
 
 
@@ -1741,6 +1792,23 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 
 //Iphones & phones
 @media (min-width: 320px) and (max-width: 991px) {
+    .booknow.page {
+        padding-top: 60px;
+    }
+    .booknow.page .tabs {
+        ul {
+            margin:0;
+            padding: 0;
+            li {
+                width:100%;
+                margin:10px 0;
+                margin-bottom: 30px;
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
     
     .contacts.page {
         padding-top: 80px;
