@@ -1,0 +1,2447 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,cyrillic-ext,cyrillic);
+@font-face {
+  font-family: 'Conv_AA_Haymaker';
+  src: url("../fonts/AA_Haymaker.eot");
+  src: local("☺"), url("../fonts/AA_Haymaker.woff") format("woff"), url("../fonts/AA_Haymaker.ttf") format("truetype"), url("../fonts/AA_Haymaker.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 19, /JOBS/Braindrain/src/css/style.scss */
+.green {
+  color: #4db848 !important; }
+
+/* line 23, /JOBS/Braindrain/src/css/style.scss */
+html, body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 27, /JOBS/Braindrain/src/css/style.scss */
+a {
+  cursor: pointer; }
+
+/* line 30, /JOBS/Braindrain/src/css/style.scss */
+a.btn {
+  display: inline-block;
+  padding: 20px 30px 17px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  border: 3px solid #ffffff;
+  border-radius: 0;
+  text-transform: uppercase; }
+  /* line 39, /JOBS/Braindrain/src/css/style.scss */
+  a.btn:hover {
+    color: #ffffff;
+    background-color: #4db848;
+    border-color: #4db848; }
+
+/* line 45, /JOBS/Braindrain/src/css/style.scss */
+.title {
+  font-family: "Conv_AA_Haymaker";
+  text-transform: uppercase; }
+
+/* line 49, /JOBS/Braindrain/src/css/style.scss */
+.nopadding {
+  padding: 0; }
+
+/* line 52, /JOBS/Braindrain/src/css/style.scss */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.55); }
+  /* line 59, /JOBS/Braindrain/src/css/style.scss */
+  nav .top_nav {
+    padding: 14px 0;
+    background-color: rgba(0, 0, 0, 0.6); }
+    /* line 62, /JOBS/Braindrain/src/css/style.scss */
+    nav .top_nav .slogan {
+      color: #4db848;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 500; }
+    /* line 68, /JOBS/Braindrain/src/css/style.scss */
+    nav .top_nav .lang {
+      margin-right: 89px;
+      color: #ffffff; }
+      /* line 71, /JOBS/Braindrain/src/css/style.scss */
+      nav .top_nav .lang a {
+        margin: 0 5px;
+        color: #ffffff;
+        font-size: 14px; }
+        /* line 75, /JOBS/Braindrain/src/css/style.scss */
+        nav .top_nav .lang a.active {
+          color: #4db848; }
+    /* line 80, /JOBS/Braindrain/src/css/style.scss */
+    nav .top_nav .location {
+      position: relative;
+      margin-right: 100px;
+      color: #ffffff;
+      font-size: 14px;
+      text-decoration: none;
+      border-bottom: 1px dashed #ffffff; }
+      /* line 87, /JOBS/Braindrain/src/css/style.scss */
+      nav .top_nav .location i {
+        display: inline-block;
+        position: absolute;
+        left: -28px;
+        top: -5px;
+        width: 18px;
+        height: 27px;
+        background-image: url(../images/location.png);
+        background-repeat: no-repeat; }
+      /* line 97, /JOBS/Braindrain/src/css/style.scss */
+      nav .top_nav .location:hover {
+        border-bottom: none; }
+    /* line 101, /JOBS/Braindrain/src/css/style.scss */
+    nav .top_nav .signin {
+      position: relative;
+      color: #883f98;
+      text-decoration: none; }
+      /* line 105, /JOBS/Braindrain/src/css/style.scss */
+      nav .top_nav .signin i {
+        display: inline-block;
+        position: absolute;
+        left: -32px;
+        top: -3px;
+        width: 24px;
+        height: 23px;
+        background-image: url(../images/signin.png);
+        background-repeat: no-repeat; }
+      /* line 115, /JOBS/Braindrain/src/css/style.scss */
+      nav .top_nav .signin:hover {
+        color: #ffffff; }
+  /* line 121, /JOBS/Braindrain/src/css/style.scss */
+  nav.black .top_nav {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9); }
+  /* line 125, /JOBS/Braindrain/src/css/style.scss */
+  nav.black .main_menu {
+    background-color: rgba(0, 0, 0, 0.8); }
+  /* line 130, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu a.logotype {
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%; }
+    /* line 134, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu a.logotype img {
+      width: 100%; }
+  /* line 138, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    /* line 143, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu .menu li {
+      display: inline-block;
+      margin-right: 20px; }
+      /* line 146, /JOBS/Braindrain/src/css/style.scss */
+      nav .main_menu .menu li a {
+        display: inline-block;
+        padding: 57px 0 55px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none; }
+        /* line 154, /JOBS/Braindrain/src/css/style.scss */
+        nav .main_menu .menu li a:hover, nav .main_menu .menu li a.active {
+          color: #883f98; }
+      /* line 159, /JOBS/Braindrain/src/css/style.scss */
+      nav .main_menu .menu li.podmenu > a {
+        padding-right: 15px;
+        background-image: url(../images/podmenu.png);
+        background-repeat: no-repeat;
+        background-position: right 51%; }
+      /* line 165, /JOBS/Braindrain/src/css/style.scss */
+      nav .main_menu .menu li.podmenu ul {
+        display: none; }
+      /* line 169, /JOBS/Braindrain/src/css/style.scss */
+      nav .main_menu .menu li.podmenu:hover, nav .main_menu .menu li.podmenu.active {
+        position: relative; }
+        /* line 170, /JOBS/Braindrain/src/css/style.scss */
+        nav .main_menu .menu li.podmenu:hover > a, nav .main_menu .menu li.podmenu.active > a {
+          color: #883f98;
+          background-image: url(../images/podmenu_active.png); }
+        /* line 175, /JOBS/Braindrain/src/css/style.scss */
+        nav .main_menu .menu li.podmenu:hover ul, nav .main_menu .menu li.podmenu.active ul {
+          display: block;
+          position: absolute;
+          min-width: 850px;
+          margin: 0;
+          padding: 0;
+          top: 80px;
+          text-align: left; }
+          /* line 184, /JOBS/Braindrain/src/css/style.scss */
+          nav .main_menu .menu li.podmenu:hover ul li a, nav .main_menu .menu li.podmenu.active ul li a {
+            padding: 20px 0;
+            font-size: 14px;
+            font-weight: 500; }
+  /* line 194, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .phone {
+    display: inline-block;
+    margin: 54px 0 52px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none; }
+  /* line 202, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .callback {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 49px 0 43px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    border: 3px solid #ffffff; }
+    /* line 210, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu .callback:hover {
+      color: #ffffff;
+      background-color: #4db848;
+      border-color: #4db848; }
+
+/* line 219, /JOBS/Braindrain/src/css/style.scss */
+.social {
+  position: fixed;
+  right: 0;
+  top: 350px;
+  width: 50px;
+  z-index: 9; }
+  /* line 225, /JOBS/Braindrain/src/css/style.scss */
+  .social a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 2px;
+    background-image: url(../images/socials.png);
+    background-position: 0px 0; }
+    /* line 232, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_1:hover {
+      background-position: 50px 0; }
+    /* line 233, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_2 {
+      background-position: 0px 50px; }
+    /* line 234, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_2:hover {
+      background-position: 50px 50px; }
+    /* line 235, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_3 {
+      background-position: 0px 102px; }
+    /* line 236, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_3:hover {
+      background-position: 50px 102px; }
+    /* line 237, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_4 {
+      background-position: 0px 154px; }
+    /* line 238, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_4:hover {
+      background-position: 50px 154px; }
+    /* line 239, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_5 {
+      background-position: 0px 206px; }
+    /* line 240, /JOBS/Braindrain/src/css/style.scss */
+    .social a.social_5:hover {
+      background-position: 50px 206px; }
+
+/* line 245, /JOBS/Braindrain/src/css/style.scss */
+header {
+  background-image: url(../images/main_slide.jpg);
+  background-size: cover;
+  background-position: top center; }
+  /* line 249, /JOBS/Braindrain/src/css/style.scss */
+  header h1 {
+    margin-top: 0;
+    padding-top: 300px;
+    text-align: center;
+    font-family: "Conv_AA_Haymaker";
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 55px; }
+    /* line 257, /JOBS/Braindrain/src/css/style.scss */
+    header h1 strong {
+      font-size: 70px;
+      line-height: 155px; }
+  /* line 262, /JOBS/Braindrain/src/css/style.scss */
+  header a.btn {
+    margin-bottom: 100px; }
+  /* line 265, /JOBS/Braindrain/src/css/style.scss */
+  header.room {
+    height: 900px;
+    width: 100%;
+    background-size: cover; }
+    /* line 269, /JOBS/Braindrain/src/css/style.scss */
+    header.room .container {
+      position: relative;
+      height: 900px; }
+    /* line 273, /JOBS/Braindrain/src/css/style.scss */
+    header.room .top {
+      margin-top: 225px; }
+    /* line 276, /JOBS/Braindrain/src/css/style.scss */
+    header.room .bottom {
+      left: 0;
+      position: absolute;
+      bottom: -40px; }
+    /* line 281, /JOBS/Braindrain/src/css/style.scss */
+    header.room .name {
+      font-family: "Conv_AA_Haymaker";
+      font-size: 55px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff; }
+    /* line 288, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level {
+      display: inline-block;
+      width: 181px;
+      height: 38px;
+      margin-left: 20px;
+      background-position: 0 9px;
+      background-repeat: no-repeat;
+      padding: 27px 0px 27px 0px; }
+    /* line 297, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level-1 {
+      background-image: url(../images/level-1.png); }
+    /* line 298, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level-2 {
+      background-image: url(../images/level-2.png); }
+    /* line 299, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level-3 {
+      background-image: url(../images/level-3.png); }
+    /* line 300, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level-4 {
+      background-image: url(../images/level-4.png); }
+    /* line 301, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level-5 {
+      background-image: url(../images/level-5.png); }
+    /* line 302, /JOBS/Braindrain/src/css/style.scss */
+    header.room .players, header.room .age, header.room .rating {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 30px;
+      padding: 27px 0 16px 45px;
+      color: #ffffff;
+      font-size: 16px;
+      text-transform: uppercase;
+      background-repeat: no-repeat;
+      background-position: left center; }
+    /* line 313, /JOBS/Braindrain/src/css/style.scss */
+    header.room .players {
+      background-image: url(../images/players.png); }
+    /* line 316, /JOBS/Braindrain/src/css/style.scss */
+    header.room .age {
+      background-image: url(../images/age.png); }
+    /* line 319, /JOBS/Braindrain/src/css/style.scss */
+    header.room .rating {
+      background-image: url(../images/rating.png); }
+    /* line 322, /JOBS/Braindrain/src/css/style.scss */
+    header.room .btn {
+      padding: 20px 40px 17px;
+      color: #ffffff; }
+      /* line 325, /JOBS/Braindrain/src/css/style.scss */
+      header.room .btn:hover {
+        color: #ffffff;
+        background-color: #4db848;
+        border-color: #4db848; }
+    /* line 332, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .name {
+      color: #211521;
+      text-shadow: 0 2px 7px #fff, 2px 1px 1em #fff; }
+    /* line 336, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .level-1 {
+      background-image: url(../images/level-black-1.png); }
+    /* line 337, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .level-2 {
+      background-image: url(../images/level-black-2.png); }
+    /* line 338, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .level-3 {
+      background-image: url(../images/level-black-3.png); }
+    /* line 339, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .level-4 {
+      background-image: url(../images/level-black-4.png); }
+    /* line 340, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .level-5 {
+      background-image: url(../images/level-black-5.png); }
+    /* line 341, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .players, header.room.black .age, header.room.black .rating {
+      color: #211521;
+      text-shadow: 0 2px 7px #fff, 2px 1px 1em #fff; }
+    /* line 345, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .players {
+      background-image: url(../images/players-black.png); }
+    /* line 348, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .age {
+      background-image: url(../images/age-black.png); }
+    /* line 351, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .rating {
+      background-image: url(../images/rating-black.png); }
+    /* line 354, /JOBS/Braindrain/src/css/style.scss */
+    header.room.black .btn {
+      color: #211521;
+      border-color: #211521;
+      text-shadow: 0 2px 7px #fff, 2px 1px 1em #fff; }
+      /* line 358, /JOBS/Braindrain/src/css/style.scss */
+      header.room.black .btn:hover {
+        color: #ffffff;
+        background-color: #4db848;
+        border-color: #4db848; }
+
+/* line 368, /JOBS/Braindrain/src/css/style.scss */
+.rooms {
+  display: inline-block;
+  width: 100%;
+  background-image: url(../images/rooms_bg.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75); }
+  /* line 377, /JOBS/Braindrain/src/css/style.scss */
+  .rooms h3 {
+    padding: 50px 0 30px;
+    color: #ffffff;
+    font-family: "Conv_AA_Haymaker";
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase; }
+  /* line 386, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item {
+    overflow: hidden;
+    height: 524px;
+    width: 49.4%;
+    margin: 0.2% 0.2% 0.2% 0.4%;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.55);
+    background-image: url(../images/room.jpg);
+    background-size: 122%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background 250ms ease-out;
+    cursor: pointer; }
+    /* line 404, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item:hover .photo img {
+      transform: scale(1.1, 1.1); }
+    /* line 409, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item:nth-child(odd) {
+      margin: 0.2% 0.4% 0.2% 0.2%; }
+    /* line 412, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .photo {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      overflow: hidden;
+      transition: 250ms ease-out; }
+      /* line 419, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item .photo img {
+        transition: 250ms ease-out;
+        width: 100%; }
+    /* line 425, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .top {
+      margin-top: 25px; }
+    /* line 428, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .bottom {
+      left: 0;
+      position: absolute;
+      bottom: 30px; }
+    /* line 433, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .name {
+      font-size: 33px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff; }
+    /* line 439, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level {
+      display: inline-block;
+      width: 181px;
+      height: 38px; }
+    /* line 444, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level-1 {
+      background-image: url(../images/level-1.png); }
+    /* line 445, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level-2 {
+      background-image: url(../images/level-2.png); }
+    /* line 446, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level-3 {
+      background-image: url(../images/level-3.png); }
+    /* line 447, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level-4 {
+      background-image: url(../images/level-4.png); }
+    /* line 448, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level-5 {
+      background-image: url(../images/level-5.png); }
+    /* line 449, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .players, .rooms .room_item .age, .rooms .room_item .rating {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 30px;
+      padding: 27px 0 16px 45px;
+      color: #ffffff;
+      font-size: 16px;
+      text-transform: uppercase;
+      background-repeat: no-repeat;
+      background-position: left center; }
+    /* line 460, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .players {
+      background-image: url(../images/players.png); }
+    /* line 463, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .age {
+      background-image: url(../images/age.png); }
+    /* line 466, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .rating {
+      background-image: url(../images/rating.png); }
+    /* line 469, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .btn {
+      padding: 20px 40px 17px;
+      color: #ffffff; }
+      /* line 472, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item .btn:hover {
+        color: #ffffff;
+        background-color: #4db848;
+        border-color: #4db848; }
+    /* line 478, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item.black {
+      background-image: url(../images/room3.jpg); }
+      /* line 480, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .name, .rooms .room_item.black .players, .rooms .room_item.black .age, .rooms .room_item.black .rating, .rooms .room_item.black .btn {
+        color: #211521;
+        text-shadow: 0px 2px 7px #fff, 2px 1px 1em #fff; }
+      /* line 484, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .players {
+        background-image: url(../images/players-black.png); }
+      /* line 487, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .age {
+        background-image: url(../images/age-black.png); }
+      /* line 490, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .rating {
+        background-image: url(../images/rating-black.png); }
+      /* line 493, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .level-1 {
+        background-image: url(../images/level-black-1.png); }
+      /* line 494, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .level-2 {
+        background-image: url(../images/level-black-2.png); }
+      /* line 495, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .level-3 {
+        background-image: url(../images/level-black-3.png); }
+      /* line 496, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .level-4 {
+        background-image: url(../images/level-black-4.png); }
+      /* line 497, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .level-5 {
+        background-image: url(../images/level-black-5.png); }
+      /* line 498, /JOBS/Braindrain/src/css/style.scss */
+      .rooms .room_item.black .btn {
+        border-color: #211521; }
+        /* line 500, /JOBS/Braindrain/src/css/style.scss */
+        .rooms .room_item.black .btn:hover {
+          color: #ffffff;
+          border-color: #4db848; }
+
+/* line 509, /JOBS/Braindrain/src/css/style.scss */
+.whatis {
+  padding-bottom: 50px;
+  background-image: url(../images/what_is.jpg);
+  background-size: cover; }
+  /* line 513, /JOBS/Braindrain/src/css/style.scss */
+  .whatis h2 {
+    padding: 70px 0 50px;
+    color: #ffffff;
+    font-family: "Conv_AA_Haymaker";
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase; }
+  /* line 522, /JOBS/Braindrain/src/css/style.scss */
+  .whatis p {
+    margin: 0 0 30px 0;
+    text-align: left;
+    text-indent: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #ffffff; }
+  /* line 531, /JOBS/Braindrain/src/css/style.scss */
+  .whatis.room {
+    padding-top: 70px; }
+
+/* line 536, /JOBS/Braindrain/src/css/style.scss */
+.whatyougain {
+  padding-bottom: 50px;
+  background-image: url(../images/rooms_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75); }
+  /* line 544, /JOBS/Braindrain/src/css/style.scss */
+  .whatyougain h3 {
+    padding: 70px 0 50px;
+    color: #ffffff;
+    font-family: "Conv_AA_Haymaker";
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase; }
+  /* line 553, /JOBS/Braindrain/src/css/style.scss */
+  .whatyougain .gain_item {
+    color: #ffffff; }
+    /* line 555, /JOBS/Braindrain/src/css/style.scss */
+    .whatyougain .gain_item .title {
+      display: inline-block;
+      padding-left: 60px;
+      font-family: "Roboto", sans-serif;
+      font-size: 22px;
+      font-weight: 500; }
+      /* line 561, /JOBS/Braindrain/src/css/style.scss */
+      .whatyougain .gain_item .title img {
+        position: absolute;
+        left: 15px;
+        top: 5px;
+        margin-right: 20px;
+        margin-top: -11px; }
+    /* line 569, /JOBS/Braindrain/src/css/style.scss */
+    .whatyougain .gain_item p {
+      margin-top: 30px;
+      padding-right: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px; }
+    /* line 578, /JOBS/Braindrain/src/css/style.scss */
+    .whatyougain .gain_item:nth-child(4) .title img {
+      top: -2px; }
+
+/* line 586, /JOBS/Braindrain/src/css/style.scss */
+.booknow {
+  background-image: url(../images/rooms_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75); }
+  /* line 593, /JOBS/Braindrain/src/css/style.scss */
+  .booknow h3 {
+    padding: 70px 0 50px;
+    color: #ffffff;
+    font-family: "Conv_AA_Haymaker";
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 603, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks {
+    text-align: center;
+    margin-bottom: 30px; }
+    /* line 606, /JOBS/Braindrain/src/css/style.scss */
+    .booknow .weeks .prev_week, .booknow .weeks .next_week {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 22px;
+      text-transform: uppercase; }
+      /* line 611, /JOBS/Braindrain/src/css/style.scss */
+      .booknow .weeks .prev_week a, .booknow .weeks .next_week a {
+        position: relative;
+        text-decoration: none;
+        color: #ffffff; }
+        /* line 615, /JOBS/Braindrain/src/css/style.scss */
+        .booknow .weeks .prev_week a:hover, .booknow .weeks .next_week a:hover {
+          opacity: .15; }
+    /* line 620, /JOBS/Braindrain/src/css/style.scss */
+    .booknow .weeks .prev_week a::before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 1px;
+      left: -60px;
+      width: 11px;
+      height: 13px;
+      padding-left: 50px;
+      background-position: 20px 0px;
+      background-repeat: no-repeat;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAMAAABIK2QJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAS1BMVEX///////////////////////////////////////////////////////////////////////////////////////////////////+yVYcAAAAAGHRSTlMAtCT5hAzhV78r+5AQ6WICkeuSLeNZhbXXQT5LAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAERJREFUCNdFzkkSgCAMRFEcQVAZHPj3P6krO1m9SnWl44bRaZjmRYbVmyFsZmLaZTjOLEORq/axKR+u/879qPdVb7d/PvvZBppoxIwaAAAAAElFTkSuQmCC");
+      transform: scaleX(-1); }
+    /* line 634, /JOBS/Braindrain/src/css/style.scss */
+    .booknow .weeks .next_week a::after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 1px;
+      right: -60px;
+      width: 11px;
+      height: 13px;
+      padding-left: 50px;
+      background-position: 20px 0px;
+      background-repeat: no-repeat;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAMAAABIK2QJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAS1BMVEX///////////////////////////////////////////////////////////////////////////////////////////////////+yVYcAAAAAGHRSTlMAtCT5hAzhV78r+5AQ6WICkeuSLeNZhbXXQT5LAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAERJREFUCNdFzkkSgCAMRFEcQVAZHPj3P6krO1m9SnWl44bRaZjmRYbVmyFsZmLaZTjOLEORq/axKR+u/879qPdVb7d/PvvZBppoxIwaAAAAAElFTkSuQmCC"); }
+    /* line 647, /JOBS/Braindrain/src/css/style.scss */
+    .booknow .weeks .week {
+      margin: 0 50px;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase; }
+  /* line 656, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .btn.calendar {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #aa66b9;
+    border-color: #aa66b9;
+    font-weight: 700;
+    padding-right: 80px;
+    background-size: 41px 35px;
+    background-repeat: no-repeat;
+    background-position: 130px center;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAjAgMAAAB0lcsDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAADFBMVEWqZrn///+qZrn///9eqUCdAAAAAnRSTlMAAHaTzTgAAAABYktHRAH/Ai3eAAAACXBIWXMAAAsSAAALEgHS3X78AAAAS0lEQVQY02NgYOBa1cCwakVoqAMDLvaqVVxdTQtWrMgCieBgr2Dg6gKSK0KjwGyIXrxsCEBnr4ID3GxcenGzuRpWABF+Nj3NIcm/ADg/iZLmyFdCAAAAAElFTkSuQmCC"); }
+    /* line 667, /JOBS/Braindrain/src/css/style.scss */
+    .booknow .btn.calendar:hover {
+      background-color: #ffffff; }
+  /* line 672, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar {
+    display: table;
+    width: 100%;
+    border-spacing: 2px 15px;
+    margin-bottom: 70px; }
+    /* line 677, /JOBS/Braindrain/src/css/style.scss */
+    .booknow #calendar .calendar_day {
+      display: table-row; }
+      /* line 679, /JOBS/Braindrain/src/css/style.scss */
+      .booknow #calendar .calendar_day .hours {
+        display: table;
+        width: 100%; }
+      /* line 683, /JOBS/Braindrain/src/css/style.scss */
+      .booknow #calendar .calendar_day .day {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        background-color: rgba(0, 0, 0, 0.5); }
+        /* line 688, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .day .date_day {
+          font-size: 30px;
+          font-weight: 500;
+          line-height: 29px;
+          text-transform: uppercase;
+          color: #ffffff; }
+          /* line 694, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .day .date_day b {
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #883f98; }
+      /* line 702, /JOBS/Braindrain/src/css/style.scss */
+      .booknow #calendar .calendar_day .hour {
+        display: table-cell;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 110px; }
+        /* line 707, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour span {
+          display: block; }
+        /* line 710, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
+          opacity: 0;
+          color: #ffffff;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        /* line 717, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour .price {
+          font-size: 16px; }
+        /* line 720, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour a {
+          display: block;
+          padding: 12px 0px 10px;
+          text-decoration: none; }
+          /* line 724, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour a .time {
+            margin: 5px 0;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 22px;
+            text-transform: uppercase; }
+        /* line 732, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour a:hover {
+          text-decoration: none; }
+          /* line 734, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour a:hover .places, .booknow #calendar .calendar_day .hour a:hover .price {
+            opacity: 1; }
+        /* line 738, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour.green {
+          color: #4db848; }
+          /* line 740, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.green .places, .booknow #calendar .calendar_day .hour.green .time, .booknow #calendar .calendar_day .hour.green .price {
+            color: #4db848; }
+          /* line 743, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.green:hover {
+            background-color: #4db848; }
+            /* line 745, /JOBS/Braindrain/src/css/style.scss */
+            .booknow #calendar .calendar_day .hour.green:hover .places, .booknow #calendar .calendar_day .hour.green:hover .time, .booknow #calendar .calendar_day .hour.green:hover .price {
+              color: #ffffff; }
+        /* line 750, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour.yellow {
+          color: #fff000; }
+          /* line 752, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.yellow .places, .booknow #calendar .calendar_day .hour.yellow .time, .booknow #calendar .calendar_day .hour.yellow .price {
+            color: #fff000; }
+          /* line 755, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.yellow:hover {
+            background-color: #fff000; }
+            /* line 757, /JOBS/Braindrain/src/css/style.scss */
+            .booknow #calendar .calendar_day .hour.yellow:hover .places, .booknow #calendar .calendar_day .hour.yellow:hover .time, .booknow #calendar .calendar_day .hour.yellow:hover .price {
+              color: #211521; }
+        /* line 762, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour.gray {
+          color: #6d6f70;
+          background-color: rgba(0, 0, 0, 0.22); }
+          /* line 765, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.gray .places, .booknow #calendar .calendar_day .hour.gray .time, .booknow #calendar .calendar_day .hour.gray .price {
+            color: #6d6f70; }
+          /* line 768, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.gray:hover {
+            background-color: rgba(0, 0, 0, 0.22); }
+            /* line 770, /JOBS/Braindrain/src/css/style.scss */
+            .booknow #calendar .calendar_day .hour.gray:hover .places, .booknow #calendar .calendar_day .hour.gray:hover .time, .booknow #calendar .calendar_day .hour.gray:hover .price {
+              color: #6e6f70; }
+        /* line 775, /JOBS/Braindrain/src/css/style.scss */
+        .booknow #calendar .calendar_day .hour.violet {
+          color: #883f98; }
+          /* line 777, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.violet .places, .booknow #calendar .calendar_day .hour.violet .time, .booknow #calendar .calendar_day .hour.violet .price {
+            color: #883f98; }
+          /* line 780, /JOBS/Braindrain/src/css/style.scss */
+          .booknow #calendar .calendar_day .hour.violet:hover {
+            background-color: #883f98; }
+            /* line 782, /JOBS/Braindrain/src/css/style.scss */
+            .booknow #calendar .calendar_day .hour.violet:hover .places, .booknow #calendar .calendar_day .hour.violet:hover .time, .booknow #calendar .calendar_day .hour.violet:hover .price {
+              color: #ffffff; }
+
+/* line 792, /JOBS/Braindrain/src/css/style.scss */
+.contacts {
+  background-image: url(../images/contacts_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 15px 18px -6px rgba(0, 0, 0, 0.75); }
+  /* line 799, /JOBS/Braindrain/src/css/style.scss */
+  .contacts h3 {
+    padding: 70px 0 50px;
+    color: #ffffff;
+    font-family: "Conv_AA_Haymaker";
+    margin: 0;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase; }
+  /* line 808, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .phone, .contacts .mail, .contacts .adress {
+    display: inline-block;
+    position: relative;
+    padding: 10px 0px 10px 70px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    text-decoration: none; }
+  /* line 820, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .phone {
+    background-image: url(../images/contacts_phone.png); }
+  /* line 821, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .mail {
+    background-image: url(../images/contacts_mail.png);
+    background-position: 0px 4px; }
+  /* line 822, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress {
+    background-image: url(../images/contacts_location.png); }
+  /* line 823, /JOBS/Braindrain/src/css/style.scss */
+  .contacts #map {
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    height: 566px;
+    background-color: #352d38; }
+  /* line 830, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .footer {
+    padding: 20px 0 30px 0; }
+    /* line 832, /JOBS/Braindrain/src/css/style.scss */
+    .contacts .footer .copyrights, .contacts .footer .terms {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #ffffff; }
+    /* line 841, /JOBS/Braindrain/src/css/style.scss */
+    .contacts .footer .terms {
+      text-decoration: underline; }
+      /* line 843, /JOBS/Braindrain/src/css/style.scss */
+      .contacts .footer .terms:hover {
+        text-decoration: none; }
+    /* line 847, /JOBS/Braindrain/src/css/style.scss */
+    .contacts .footer .authors {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 24px; }
+      /* line 852, /JOBS/Braindrain/src/css/style.scss */
+      .contacts .footer .authors a {
+        color: #ffffff;
+        text-decoration: underline; }
+        /* line 855, /JOBS/Braindrain/src/css/style.scss */
+        .contacts .footer .authors a:hover {
+          color: red;
+          text-decoration: none; }
+
+/* line 864, /JOBS/Braindrain/src/css/style.scss */
+.popups {
+  display: none; }
+
+/* line 867, /JOBS/Braindrain/src/css/style.scss */
+#callback {
+  width: 490px;
+  display: inline-block;
+  padding: 30px 50px;
+  background-image: url(../images/callback_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 874, /JOBS/Braindrain/src/css/style.scss */
+  #callback .title {
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px; }
+  /* line 880, /JOBS/Braindrain/src/css/style.scss */
+  #callback .form {
+    text-align: center;
+    width: 100%; }
+    /* line 883, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form input, #callback .form textarea {
+      width: 290px;
+      margin: 0 0 10px 0;
+      text-align: left;
+      padding: 10px 20px;
+      background: none;
+      border: 3px solid #ffffff;
+      outline: 0;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #ffffff; }
+    /* line 897, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form input::-webkit-input-placeholder {
+      color: #ffffff; }
+    /* line 898, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form input::-moz-placeholder {
+      color: #ffffff; }
+    /* line 899, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form input:-moz-placeholder {
+      color: #ffffff; }
+    /* line 900, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form input:-ms-input-placeholder {
+      color: #ffffff; }
+    /* line 901, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form textarea::-webkit-input-placeholder {
+      color: #ffffff; }
+    /* line 902, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form textarea::-moz-placeholder {
+      color: #ffffff; }
+    /* line 903, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form textarea:-moz-placeholder {
+      color: #ffffff; }
+    /* line 904, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form textarea:-ms-input-placeholder {
+      color: #ffffff; }
+    /* line 905, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form button {
+      width: 290px;
+      padding: 20px 0 16px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      text-transform: uppercase;
+      background-color: #4db848;
+      color: #ffffff;
+      border: 0; }
+      /* line 915, /JOBS/Braindrain/src/css/style.scss */
+      #callback .form button:hover {
+        background-color: #ffffff;
+        color: #4db848; }
+    /* line 920, /JOBS/Braindrain/src/css/style.scss */
+    #callback .form p {
+      margin-top: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 16px;
+      color: #a3a3a3; }
+
+/* line 929, /JOBS/Braindrain/src/css/style.scss */
+#sign, #signin, #signup {
+  width: 910px;
+  display: inline-block;
+  padding: 0;
+  background-image: url(../images/big_popup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 936, /JOBS/Braindrain/src/css/style.scss */
+  #sign > p, #signin > p, #signup > p {
+    padding: 10px 0 8px;
+    margin: 0;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase; }
+  /* line 947, /JOBS/Braindrain/src/css/style.scss */
+  #sign .left, #sign .right, #signin .left, #signin .right, #signup .left, #signup .right {
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: center; }
+    /* line 952, /JOBS/Braindrain/src/css/style.scss */
+    #sign .left .form, #sign .right .form, #signin .left .form, #signin .right .form, #signup .left .form, #signup .right .form {
+      text-align: center;
+      width: 100%; }
+      /* line 955, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form .title, #sign .right .form .title, #signin .left .form .title, #signin .right .form .title, #signup .left .form .title, #signup .right .form .title {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 50px; }
+      /* line 962, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form .linetext, #sign .right .form .linetext, #signin .left .form .linetext, #signin .right .form .linetext, #signup .left .form .linetext, #signup .right .form .linetext {
+        display: inline-block;
+        position: relative;
+        margin: 20px 0 15px;
+        width: 290px;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #8b8b8b; }
+        /* line 971, /JOBS/Braindrain/src/css/style.scss */
+        #sign .left .form .linetext::after, #sign .left .form .linetext::before, #sign .right .form .linetext::after, #sign .right .form .linetext::before, #signin .left .form .linetext::after, #signin .left .form .linetext::before, #signin .right .form .linetext::after, #signin .right .form .linetext::before, #signup .left .form .linetext::after, #signup .left .form .linetext::before, #signup .right .form .linetext::after, #signup .right .form .linetext::before {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          top: 10px;
+          width: 40%;
+          height: 2px;
+          background-color: #8b8b8b; }
+        /* line 980, /JOBS/Braindrain/src/css/style.scss */
+        #sign .left .form .linetext::before, #sign .right .form .linetext::before, #signin .left .form .linetext::before, #signin .right .form .linetext::before, #signup .left .form .linetext::before, #signup .right .form .linetext::before {
+          right: 0; }
+        /* line 983, /JOBS/Braindrain/src/css/style.scss */
+        #sign .left .form .linetext::after, #sign .right .form .linetext::after, #signin .left .form .linetext::after, #signin .right .form .linetext::after, #signup .left .form .linetext::after, #signup .right .form .linetext::after {
+          left: 0; }
+      /* line 987, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form label, #sign .right .form label, #signin .left .form label, #signin .right .form label, #signup .left .form label, #signup .right .form label {
+        margin-top: 10px;
+        width: 290px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #ffffff; }
+      /* line 998, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form label[for=name_signin], #sign .right .form label[for=name_signin], #signin .left .form label[for=name_signin], #signin .right .form label[for=name_signin], #signup .left .form label[for=name_signin], #signup .right .form label[for=name_signin] {
+        margin-top: 0; }
+      /* line 1001, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form label.checkbox, #sign .right .form label.checkbox, #signin .left .form label.checkbox, #signin .right .form label.checkbox, #signup .left .form label.checkbox, #signup .right .form label.checkbox {
+        display: inline-block;
+        font-size: 12px;
+        text-transform: none;
+        color: #a3a3a3;
+        position: relative;
+        cursor: pointer; }
+        /* line 1008, /JOBS/Braindrain/src/css/style.scss */
+        #sign .left .form label.checkbox a, #sign .right .form label.checkbox a, #signin .left .form label.checkbox a, #signin .right .form label.checkbox a, #signup .left .form label.checkbox a, #signup .right .form label.checkbox a {
+          color: #a3a3a3;
+          text-decoration: underline; }
+          /* line 1011, /JOBS/Braindrain/src/css/style.scss */
+          #sign .left .form label.checkbox a:hover, #sign .right .form label.checkbox a:hover, #signin .left .form label.checkbox a:hover, #signin .right .form label.checkbox a:hover, #signup .left .form label.checkbox a:hover, #signup .right .form label.checkbox a:hover {
+            color: #ffffff; }
+        /* line 1015, /JOBS/Braindrain/src/css/style.scss */
+        #sign .left .form label.checkbox::after, #sign .right .form label.checkbox::after, #signin .left .form label.checkbox::after, #signin .right .form label.checkbox::after, #signup .left .form label.checkbox::after, #signup .right .form label.checkbox::after {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          left: -30px;
+          top: 2px;
+          background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASBAMAAABLIvhaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAKlBMVEX///+enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp7///+9j8AGAAAADHRSTlMAAPjA4AEFBAIHAwk5kPtMAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAD9JREFUCNdjOAMDBxgOGUOA0QGGI4yCYCBCMpNVgIEVwhSrYGBgh4rOYGVghDJFlzLAtXUHwpkCRFqB5EiE0wHdkTOtQxRW4QAAAABJRU5ErkJggg==");
+          background-repeat: no-repeat; }
+      /* line 1027, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form input#terms, #sign .right .form input#terms, #signin .left .form input#terms, #signin .right .form input#terms, #signup .left .form input#terms, #signup .right .form input#terms {
+        display: none; }
+      /* line 1030, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form #terms:checked + label::after, #sign .right .form #terms:checked + label::after, #signin .left .form #terms:checked + label::after, #signin .right .form #terms:checked + label::after, #signup .left .form #terms:checked + label::after, #signup .right .form #terms:checked + label::after {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAMAAACO0hVbAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEWenp7///+enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp7////cmlkgAAAAHHRSTlMAAPjA4G+HNrQPFOuWAT7xaSvktvZ4JN0c1FwDHSreCAAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxIAAAsSAdLdfvwAAABNSURBVBjTY5DBBAwyTMyogAkoxsKAAhhZaCXGygYk2Dk4kcS4uGV4ePn4ZQSQ1QkKyQiLyIiimicmLgNShWqHhKQUpr3SVHIztrDCBABk7gqx4IReogAAAABJRU5ErkJggg=="); }
+      /* line 1033, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form input, #sign .left .form textarea, #sign .right .form input, #sign .right .form textarea, #signin .left .form input, #signin .left .form textarea, #signin .right .form input, #signin .right .form textarea, #signup .left .form input, #signup .left .form textarea, #signup .right .form input, #signup .right .form textarea {
+        width: 290px;
+        margin: 0 0 10px 0;
+        text-align: left;
+        padding: 10px 20px;
+        background: none;
+        border: 3px solid #ffffff;
+        outline: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #ffffff; }
+      /* line 1047, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form input::-webkit-input-placeholder, #sign .right .form input::-webkit-input-placeholder, #signin .left .form input::-webkit-input-placeholder, #signin .right .form input::-webkit-input-placeholder, #signup .left .form input::-webkit-input-placeholder, #signup .right .form input::-webkit-input-placeholder {
+        color: #ffffff; }
+      /* line 1048, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form input::-moz-placeholder, #sign .right .form input::-moz-placeholder, #signin .left .form input::-moz-placeholder, #signin .right .form input::-moz-placeholder, #signup .left .form input::-moz-placeholder, #signup .right .form input::-moz-placeholder {
+        color: #ffffff; }
+      /* line 1049, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form input:-moz-placeholder, #sign .right .form input:-moz-placeholder, #signin .left .form input:-moz-placeholder, #signin .right .form input:-moz-placeholder, #signup .left .form input:-moz-placeholder, #signup .right .form input:-moz-placeholder {
+        color: #ffffff; }
+      /* line 1050, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form input:-ms-input-placeholder, #sign .right .form input:-ms-input-placeholder, #signin .left .form input:-ms-input-placeholder, #signin .right .form input:-ms-input-placeholder, #signup .left .form input:-ms-input-placeholder, #signup .right .form input:-ms-input-placeholder {
+        color: #ffffff; }
+      /* line 1051, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form textarea::-webkit-input-placeholder, #sign .right .form textarea::-webkit-input-placeholder, #signin .left .form textarea::-webkit-input-placeholder, #signin .right .form textarea::-webkit-input-placeholder, #signup .left .form textarea::-webkit-input-placeholder, #signup .right .form textarea::-webkit-input-placeholder {
+        color: #ffffff; }
+      /* line 1052, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form textarea::-moz-placeholder, #sign .right .form textarea::-moz-placeholder, #signin .left .form textarea::-moz-placeholder, #signin .right .form textarea::-moz-placeholder, #signup .left .form textarea::-moz-placeholder, #signup .right .form textarea::-moz-placeholder {
+        color: #ffffff; }
+      /* line 1053, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form textarea:-moz-placeholder, #sign .right .form textarea:-moz-placeholder, #signin .left .form textarea:-moz-placeholder, #signin .right .form textarea:-moz-placeholder, #signup .left .form textarea:-moz-placeholder, #signup .right .form textarea:-moz-placeholder {
+        color: #ffffff; }
+      /* line 1054, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form textarea:-ms-input-placeholder, #sign .right .form textarea:-ms-input-placeholder, #signin .left .form textarea:-ms-input-placeholder, #signin .right .form textarea:-ms-input-placeholder, #signup .left .form textarea:-ms-input-placeholder, #signup .right .form textarea:-ms-input-placeholder {
+        color: #ffffff; }
+      /* line 1055, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form button, #sign .right .form button, #signin .left .form button, #signin .right .form button, #signup .left .form button, #signup .right .form button {
+        margin-top: 10px;
+        width: 290px;
+        padding: 20px 0 16px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-transform: uppercase;
+        background-color: #4db848;
+        color: #ffffff;
+        border: 0; }
+        /* line 1066, /JOBS/Braindrain/src/css/style.scss */
+        #sign .left .form button:hover, #sign .right .form button:hover, #signin .left .form button:hover, #signin .right .form button:hover, #signup .left .form button:hover, #signup .right .form button:hover {
+          background-color: #ffffff;
+          color: #4db848; }
+      /* line 1071, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form a.facebook, #sign .right .form a.facebook, #signin .left .form a.facebook, #signin .right .form a.facebook, #signup .left .form a.facebook, #signup .right .form a.facebook {
+        display: inline-block;
+        width: 290px;
+        padding: 15px 20px 12px;
+        color: #000;
+        background-color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-image: url(../images/facebook.jpg);
+        background-repeat: no-repeat;
+        background-position: left center; }
+      /* line 1086, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form a.forgot, #sign .right .form a.forgot, #signin .left .form a.forgot, #signin .right .form a.forgot, #signup .left .form a.forgot, #signup .right .form a.forgot {
+        display: inline-block;
+        margin: 14px 0;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-decoration: underline;
+        text-transform: uppercase; }
+      /* line 1096, /JOBS/Braindrain/src/css/style.scss */
+      #sign .left .form p, #sign .right .form p, #signin .left .form p, #signin .right .form p, #signup .left .form p, #signup .right .form p {
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #a3a3a3; }
+  /* line 1105, /JOBS/Braindrain/src/css/style.scss */
+  #sign .left, #signin .left, #signup .left {
+    border-right: 3px solid #000;
+    padding-bottom: 100px; }
+
+/* line 1111, /JOBS/Braindrain/src/css/style.scss */
+#signin {
+  width: 320px; }
+  /* line 1113, /JOBS/Braindrain/src/css/style.scss */
+  #signin .left {
+    width: 100%; }
+
+/* line 1117, /JOBS/Braindrain/src/css/style.scss */
+#signup {
+  width: 320px; }
+  /* line 1119, /JOBS/Braindrain/src/css/style.scss */
+  #signup .right {
+    width: 100%; }
+    /* line 1121, /JOBS/Braindrain/src/css/style.scss */
+    #signup .right .form label {
+      margin-top: 10px;
+      margin-left: 40px;
+      width: 270px; }
+
+/* line 1129, /JOBS/Braindrain/src/css/style.scss */
+#book, #bookPay {
+  width: 910px;
+  height: 435px;
+  display: inline-block;
+  padding: 0;
+  background-image: url(../images/calendar_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 1137, /JOBS/Braindrain/src/css/style.scss */
+  #book .left, #book .right, #bookPay .left, #bookPay .right {
+    display: inline-block;
+    width: 60%;
+    float: left; }
+  /* line 1142, /JOBS/Braindrain/src/css/style.scss */
+  #book .right, #bookPay .right {
+    width: 40%;
+    padding: 35px 30px;
+    color: #ffffff; }
+    /* line 1146, /JOBS/Braindrain/src/css/style.scss */
+    #book .right .date, #book .right .day, #book .right .time, #bookPay .right .date, #bookPay .right .day, #bookPay .right .time {
+      display: block; }
+    /* line 1149, /JOBS/Braindrain/src/css/style.scss */
+    #book .right .date, #bookPay .right .date {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase; }
+    /* line 1155, /JOBS/Braindrain/src/css/style.scss */
+    #book .right .day, #bookPay .right .day {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #aa66b9; }
+    /* line 1163, /JOBS/Braindrain/src/css/style.scss */
+    #book .right .time, #bookPay .right .time {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase; }
+    /* line 1170, /JOBS/Braindrain/src/css/style.scss */
+    #book .right .pay, #bookPay .right .pay {
+      margin-top: 50px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase; }
+      /* line 1176, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .pay a.pay_item, #bookPay .right .pay a.pay_item {
+        display: block;
+        float: left;
+        width: 46%;
+        margin: 5px 10px 5px 0;
+        overflow: hidden; }
+        /* line 1182, /JOBS/Braindrain/src/css/style.scss */
+        #book .right .pay a.pay_item img, #bookPay .right .pay a.pay_item img {
+          width: 100%;
+          transition: 250ms ease-out;
+          opacity: .5; }
+        /* line 1188, /JOBS/Braindrain/src/css/style.scss */
+        #book .right .pay a.pay_item:hover img, #bookPay .right .pay a.pay_item:hover img {
+          transform: scale(1.17, 1.17);
+          opacity: 1; }
+    /* line 1195, /JOBS/Braindrain/src/css/style.scss */
+    #book .right .quantity, #bookPay .right .quantity {
+      margin-top: 70px;
+      position: relative;
+      margin-left: 20px;
+      border: 3px solid #883f98; }
+      /* line 1200, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .quantity .price, #bookPay .right .quantity .price {
+        display: inline-block;
+        padding: 15px 20px;
+        background-color: #883f98;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 22px;
+        text-transform: uppercase; }
+      /* line 1209, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .quantity .text, #bookPay .right .quantity .text {
+        padding: 0 12px;
+        color: #883f98;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase; }
+      /* line 1217, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .quantity .qnty, #bookPay .right .quantity .qnty {
+        display: inline-block;
+        padding: 9px 22px 6px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000;
+        background-color: #ffffff; }
+        /* line 1226, /JOBS/Braindrain/src/css/style.scss */
+        #book .right .quantity .qnty a.minus, #bookPay .right .quantity .qnty a.minus {
+          display: inline-block;
+          position: relative; }
+          /* line 1229, /JOBS/Braindrain/src/css/style.scss */
+          #book .right .quantity .qnty a.minus::before, #bookPay .right .quantity .qnty a.minus::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 3px 5.2px 3px 0;
+            border-color: transparent #000 transparent transparent; }
+        /* line 1242, /JOBS/Braindrain/src/css/style.scss */
+        #book .right .quantity .qnty a.plus, #bookPay .right .quantity .qnty a.plus {
+          display: inline-block;
+          position: relative; }
+          /* line 1245, /JOBS/Braindrain/src/css/style.scss */
+          #book .right .quantity .qnty a.plus::before, #bookPay .right .quantity .qnty a.plus::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 3px 0 3px 5.2px;
+            border-color: transparent transparent transparent  #000; }
+      /* line 1259, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .quantity::before, #bookPay .right .quantity::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: -3px;
+        left: -23px;
+        border-style: solid;
+        border-width: 29px 20px 29px 0;
+        border-color: transparent #883f98 transparent transparent; }
+    /* line 1272, /JOBS/Braindrain/src/css/style.scss */
+    #book .right a.btn, #bookPay .right a.btn {
+      margin-top: 80px;
+      width: 100%;
+      background-color: #4db848;
+      color: #ffffff;
+      border-color: #4db848;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 22px;
+      text-transform: uppercase; }
+      /* line 1282, /JOBS/Braindrain/src/css/style.scss */
+      #book .right a.btn:hover, #bookPay .right a.btn:hover {
+        background-color: #ffffff;
+        color: #4db848;
+        border-color: #ffffff; }
+  /* line 1289, /JOBS/Braindrain/src/css/style.scss */
+  #book .room_item, #bookPay .room_item {
+    display: inline-block;
+    width: 100%;
+    height: 435px;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    position: relative; }
+    /* line 1297, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .top, #bookPay .room_item .top {
+      display: inline-block;
+      width: 100%;
+      padding: 25px 30px 0; }
+    /* line 1302, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .bottom, #bookPay .room_item .bottom {
+      display: inline-block;
+      width: 100%;
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      padding: 0 20px; }
+    /* line 1310, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .name, #bookPay .room_item .name {
+      display: inline-block;
+      width: 60%;
+      float: left;
+      font-size: 33px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff; }
+    /* line 1319, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .levels, #bookPay .room_item .levels {
+      display: inline-block;
+      width: 40%;
+      text-align: right; }
+    /* line 1324, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .level, #bookPay .room_item .level {
+      display: inline-block;
+      width: 181px;
+      height: 38px; }
+    /* line 1329, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .level-1, #bookPay .room_item .level-1 {
+      background-image: url(../images/level-1.png); }
+    /* line 1330, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .level-2, #bookPay .room_item .level-2 {
+      background-image: url(../images/level-2.png); }
+    /* line 1331, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .level-3, #bookPay .room_item .level-3 {
+      background-image: url(../images/level-3.png); }
+    /* line 1332, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .level-4, #bookPay .room_item .level-4 {
+      background-image: url(../images/level-4.png); }
+    /* line 1333, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .level-5, #bookPay .room_item .level-5 {
+      background-image: url(../images/level-5.png); }
+    /* line 1334, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .players, #book .room_item .age, #book .room_item .rating, #bookPay .room_item .players, #bookPay .room_item .age, #bookPay .room_item .rating {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 27px 0 16px 45px;
+      color: #ffffff;
+      font-size: 16px;
+      text-transform: uppercase;
+      background-repeat: no-repeat;
+      background-position: left center; }
+    /* line 1345, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .players, #bookPay .room_item .players {
+      background-image: url(../images/players.png); }
+    /* line 1348, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .age, #bookPay .room_item .age {
+      background-image: url(../images/age.png); }
+    /* line 1351, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .rating, #bookPay .room_item .rating {
+      background-image: url(../images/rating.png); }
+    /* line 1354, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item .btn, #bookPay .room_item .btn {
+      padding: 20px 40px 17px;
+      color: #ffffff; }
+      /* line 1357, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item .btn:hover, #bookPay .room_item .btn:hover {
+        color: #ffffff;
+        background-color: #4db848;
+        border-color: #4db848; }
+    /* line 1363, /JOBS/Braindrain/src/css/style.scss */
+    #book .room_item.black, #bookPay .room_item.black {
+      background-image: url(../images/room3.jpg); }
+      /* line 1365, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .name, #book .room_item.black .players, #book .room_item.black .age, #book .room_item.black .rating, #book .room_item.black .btn, #bookPay .room_item.black .name, #bookPay .room_item.black .players, #bookPay .room_item.black .age, #bookPay .room_item.black .rating, #bookPay .room_item.black .btn {
+        color: #211521; }
+      /* line 1368, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .players, #bookPay .room_item.black .players {
+        background-image: url(../images/players-black.png); }
+      /* line 1371, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .age, #bookPay .room_item.black .age {
+        background-image: url(../images/age-black.png); }
+      /* line 1374, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .rating, #bookPay .room_item.black .rating {
+        background-image: url(../images/rating-black.png); }
+      /* line 1377, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .level-1, #bookPay .room_item.black .level-1 {
+        background-image: url(../images/level-black-1.png); }
+      /* line 1378, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .level-2, #bookPay .room_item.black .level-2 {
+        background-image: url(../images/level-black-2.png); }
+      /* line 1379, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .level-3, #bookPay .room_item.black .level-3 {
+        background-image: url(../images/level-black-3.png); }
+      /* line 1380, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .level-4, #bookPay .room_item.black .level-4 {
+        background-image: url(../images/level-black-4.png); }
+      /* line 1381, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .level-5, #bookPay .room_item.black .level-5 {
+        background-image: url(../images/level-black-5.png); }
+      /* line 1382, /JOBS/Braindrain/src/css/style.scss */
+      #book .room_item.black .btn, #bookPay .room_item.black .btn {
+        border-color: #211521; }
+        /* line 1384, /JOBS/Braindrain/src/css/style.scss */
+        #book .room_item.black .btn:hover, #bookPay .room_item.black .btn:hover {
+          color: #ffffff;
+          border-color: #4db848; }
+
+/* line 1393, /JOBS/Braindrain/src/css/style.scss */
+#thanks {
+  display: inline-block;
+  width: 910px;
+  padding: 50px 30px;
+  background: url(../images/thanks_bg.jpg);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center; }
+  /* line 1402, /JOBS/Braindrain/src/css/style.scss */
+  #thanks .title {
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px; }
+  /* line 1408, /JOBS/Braindrain/src/css/style.scss */
+  #thanks p, #thanks .check {
+    color: #ffffff;
+    margin: 20px 0; }
+  /* line 1412, /JOBS/Braindrain/src/css/style.scss */
+  #thanks .check {
+    display: inline-block;
+    padding: 10px 0px 10px 70px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAiBAMAAADSVfZ/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEX///////////////////////////////////8HBRbfAAAACHRSTlMAbpcB/phtlg3rwRUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAq0lEQVQoz23SSwrCMBSF4StuQMUNiJMOi+ACBCnOO3HoLpwXxbNs00uanvvIoEnK90ObViSOQy/Z2DzG9P4R3z7lwJhyZMHMs2DmwJRz3Mpyewr8syvLq14jf+oUeZ0jRwssbwFx6dYlc14z5w1z2lUx+Ger4OXeZW95C+6OLwEcb4HnHDCnwPI1sLwFni+n9wt/gZ42zuG+fp0p/k0aRF6CLuUil5SX4G34HxAnhek2v1w7AAAAAElFTkSuQmCC"); }
+  /* line 1419, /JOBS/Braindrain/src/css/style.scss */
+  #thanks .code {
+    color: #fff000; }
+
+/* line 1426, /JOBS/Braindrain/src/css/style.scss */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  outline: 0; }
+
+/* line 1427, /JOBS/Braindrain/src/css/style.scss */
+#cboxWrapper {
+  max-width: none; }
+
+/* line 1428, /JOBS/Braindrain/src/css/style.scss */
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85); }
+
+/* line 1429, /JOBS/Braindrain/src/css/style.scss */
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left; }
+
+/* line 1430, /JOBS/Braindrain/src/css/style.scss */
+#cboxContent {
+  position: relative; }
+
+/* line 1431, /JOBS/Braindrain/src/css/style.scss */
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; }
+
+/* line 1432, /JOBS/Braindrain/src/css/style.scss */
+#cboxTitle {
+  margin: 0; }
+
+/* line 1433, /JOBS/Braindrain/src/css/style.scss */
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 1434, /JOBS/Braindrain/src/css/style.scss */
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer; }
+
+/* line 1435, /JOBS/Braindrain/src/css/style.scss */
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic; }
+
+/* line 1436, /JOBS/Braindrain/src/css/style.scss */
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+/* line 1437, /JOBS/Braindrain/src/css/style.scss */
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; }
+
+/* line 1438, /JOBS/Braindrain/src/css/style.scss */
+#cboxClose {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  outline: 0;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAJFBMVEX2RET2RET2RET2RET2RET2RET2RET2RET2RET2RET2RET///9S/vy1AAAACnRSTlMACQon41ZXKOb8v/EssAAAAAFiS0dECx/XxMAAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABuSURBVAjXY2BgZAADBSA2CQCx2NwZGNi7poKYmSsKGERWrQQKs81a5QgigMKZq1YmgMkAIH8aA1huKkQQLAwRBAtDBUHCUEFkJpIChDaQmVDDQBTECggJFhYBy4Gdw941DeZIhpIEmNMZmGAeAgDBvDe7XkR7PgAAAABJRU5ErkJggg=="); }
+
+@media (min-width: 1570px) {
+  /* line 1471, /JOBS/Braindrain/src/css/style.scss */
+  .container {
+    width: 1560px; } }
+
+@media (min-width: 1366px) and (max-width: 1691px) {
+  /* line 1477, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
+    margin-right: -6px; }
+  /* line 1480, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item {
+    height: 480px; } }
+
+@media (min-width: 1366px) and (max-width: 1570px) {
+  /* line 1486, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li {
+    margin-right: 15px; }
+    /* line 1488, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu .menu li a {
+      padding: 49px 0 40px;
+      font-size: 15px; }
+  /* line 1493, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .phone {
+    font-size: 17px;
+    margin: 46px 0 0px; }
+  /* line 1497, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .callback {
+    padding: 10px 17px;
+    margin: 36px 0 0px; }
+  /* line 1501, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li.podmenu:hover ul, nav .main_menu .menu li.podmenu.active ul {
+    top: 68px; }
+    /* line 1503, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu .menu li.podmenu:hover ul li a, nav .main_menu .menu li.podmenu.active ul li a {
+      padding: 10px 0; }
+  /* line 1508, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li.podmenu > a {
+    background-position: right 53%; }
+  /* line 1511, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress, .contacts .mail, .contacts .phone {
+    font-size: 16px;
+    padding-left: 53px; }
+  /* line 1515, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .col-lg-5 {
+    padding: 0; }
+  /* line 1518, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress {
+    padding-left: 40px; }
+  /* line 1521, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour {
+    width: 90px; }
+  /* line 1524, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item {
+    height: 400px; } }
+
+@media (min-width: 991px) and (max-width: 1366px) {
+  /* line 1534, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li {
+    margin-right: 15px; }
+    /* line 1536, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu .menu li a {
+      padding: 44px 0 0px;
+      font-size: 12px; }
+  /* line 1541, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .phone {
+    font-size: 14px;
+    margin: 41px 0 0px; }
+  /* line 1545, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .callback {
+    padding: 10px 9px;
+    margin: 28px 0 0px; }
+  /* line 1549, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li.podmenu:hover ul, nav .main_menu .menu li.podmenu.active ul {
+    top: 55px; }
+    /* line 1551, /JOBS/Braindrain/src/css/style.scss */
+    nav .main_menu .menu li.podmenu:hover ul li a, nav .main_menu .menu li.podmenu.active ul li a {
+      padding: 15px 0;
+      font-size: 11px; }
+  /* line 1556, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li.podmenu > a {
+    background-position: right 90%; }
+  /* line 1559, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item {
+    height: 314px; }
+    /* line 1561, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .bottom {
+      bottom: 20px;
+      left: 0; }
+    /* line 1565, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .name {
+      font-size: 20px; }
+    /* line 1568, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level {
+      width: 111px;
+      height: 23px;
+      background-size: cover; }
+  /* line 1574, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
+    padding: 7px 0 6px 32px;
+    margin-right: -7px;
+    font-size: 14px;
+    background-size: 25px; }
+  /* line 1580, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress, .contacts .mail, .contacts .phone {
+    font-size: 16px;
+    padding-left: 53px; }
+  /* line 1584, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .col-lg-5 {
+    padding: 0; }
+  /* line 1587, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress {
+    padding-left: 40px; }
+  /* line 1590, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour {
+    width: 90px; }
+  /* line 1593, /JOBS/Braindrain/src/css/style.scss */
+  header.room {
+    height: 600px; }
+    /* line 1595, /JOBS/Braindrain/src/css/style.scss */
+    header.room .container {
+      height: 600px; }
+    /* line 1598, /JOBS/Braindrain/src/css/style.scss */
+    header.room .top {
+      margin-top: 220px !important; } }
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  /* line 1606, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
+    padding: 21px 0 16px 32px;
+    margin-right: -7px;
+    font-size: 14px;
+    background-size: 25px; }
+  /* line 1612, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress, .contacts .mail, .contacts .phone {
+    font-size: 16px;
+    padding-left: 53px; }
+  /* line 1616, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .col-lg-5 {
+    padding: 0; }
+  /* line 1619, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress {
+    padding-left: 40px; } }
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  /* line 1625, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress, .contacts .mail, .contacts .phone {
+    font-size: 13px;
+    padding-left: 53px; }
+  /* line 1629, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .col-lg-5 {
+    padding: 0; }
+  /* line 1632, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress {
+    padding-left: 39px; }
+  /* line 1635, /JOBS/Braindrain/src/css/style.scss */
+  .whatyougain .gain_item .title {
+    font-size: 18px; }
+  /* line 1638, /JOBS/Braindrain/src/css/style.scss */
+  .whatis p, .whatyougain .gain_item p {
+    font-size: 16px; }
+  /* line 1641, /JOBS/Braindrain/src/css/style.scss */
+  header.room .name {
+    font-size: 50px; }
+  /* line 1644, /JOBS/Braindrain/src/css/style.scss */
+  header.room .age, header.room .players, header.room .rating {
+    margin-right: 0; }
+  /* line 1647, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .day .date_day {
+    font-size: 16px; }
+  /* line 1650, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
+    font-size: 12px; }
+  /* line 1653, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour a .time {
+    font-size: 14px; }
+  /* line 1656, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour {
+    width: 80px; } }
+
+/* line 1662, /JOBS/Braindrain/src/css/style.scss */
+.mobile_menu {
+  display: none; }
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 1669, /JOBS/Braindrain/src/css/style.scss */
+  #book .left, #bookPay .left {
+    display: none; }
+  /* line 1672, /JOBS/Braindrain/src/css/style.scss */
+  #book, #bookPay {
+    width: 320px; }
+    /* line 1674, /JOBS/Braindrain/src/css/style.scss */
+    #book .right, #bookPay .right {
+      width: 100%; }
+      /* line 1676, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .date, #bookPay .right .date {
+        font-size: 25px; }
+      /* line 1679, /JOBS/Braindrain/src/css/style.scss */
+      #book .right .quantity, #bookPay .right .quantity {
+        margin-top: 30px;
+        margin-left: 0; }
+        /* line 1682, /JOBS/Braindrain/src/css/style.scss */
+        #book .right .quantity .text, #bookPay .right .quantity .text {
+          padding: 0 6px;
+          font-size: 15px; }
+        /* line 1686, /JOBS/Braindrain/src/css/style.scss */
+        #book .right .quantity::before, #bookPay .right .quantity::before {
+          display: none; }
+      /* line 1690, /JOBS/Braindrain/src/css/style.scss */
+      #book .right a.btn, #bookPay .right a.btn {
+        margin-top: 30px; }
+  /* line 1695, /JOBS/Braindrain/src/css/style.scss */
+  #thanks {
+    width: 320px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px; }
+    /* line 1700, /JOBS/Braindrain/src/css/style.scss */
+    #thanks .title {
+      font-size: 40px; }
+    /* line 1703, /JOBS/Braindrain/src/css/style.scss */
+    #thanks .code {
+      font-size: 20px; }
+  /* line 1712, /JOBS/Braindrain/src/css/style.scss */
+  .nopadding {
+    padding: 0 15px; }
+  /* line 1715, /JOBS/Braindrain/src/css/style.scss */
+  .other_menu {
+    text-align: center;
+    margin: 10px 0; }
+  /* line 1719, /JOBS/Braindrain/src/css/style.scss */
+  nav {
+    height: 68px;
+    background: #120506; }
+    /* line 1723, /JOBS/Braindrain/src/css/style.scss */
+    nav .top_nav {
+      display: none;
+      padding: 5px 0;
+      height: 48px;
+      overflow: hidden; }
+      /* line 1728, /JOBS/Braindrain/src/css/style.scss */
+      nav .top_nav .lang, nav .top_nav .location, nav .top_nav .signin {
+        display: none; }
+  /* line 1733, /JOBS/Braindrain/src/css/style.scss */
+  .hamburger {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 10px 10px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    cursor: pointer;
+    -moz-transition: all 233ms cubic-bezier(0.5, 0, 0, 1);
+    -o-transition: all 233ms cubic-bezier(0.5, 0, 0, 1);
+    -webkit-transition: all 233ms cubic-bezier(0.5, 0, 0, 1);
+    transition: all 233ms cubic-bezier(0.5, 0, 0, 1); }
+  /* line 1747, /JOBS/Braindrain/src/css/style.scss */
+  .hamburger li {
+    width: 24px;
+    height: 3px;
+    background: #883F98;
+    margin: 4px 0 0;
+    padding: 0;
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -moz-transition: all 333ms cubic-bezier(0.5, 0, 0, 1);
+    -o-transition: all 333ms cubic-bezier(0.5, 0, 0, 1);
+    -webkit-transition: all 333ms cubic-bezier(0.5, 0, 0, 1);
+    transition: all 333ms cubic-bezier(0.5, 0, 0, 1); }
+  /* line 1762, /JOBS/Braindrain/src/css/style.scss */
+  .hamburger.checked li {
+    margin: 3px 0 0; }
+  /* line 1765, /JOBS/Braindrain/src/css/style.scss */
+  .hamburger.checked li.first {
+    -moz-transform: rotate(-135deg) translateY(-8.5px);
+    -ms-transform: rotate(-135deg) translateY(-8.5px);
+    -webkit-transform: rotate(-135deg) translateY(-8.5px);
+    transform: rotate(-135deg) translateY(-8.5px); }
+  /* line 1771, /JOBS/Braindrain/src/css/style.scss */
+  .hamburger.checked li.second {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0; }
+  /* line 1775, /JOBS/Braindrain/src/css/style.scss */
+  .hamburger.checked li.third {
+    -moz-transform: rotate(135deg) translateY(8.5px);
+    -ms-transform: rotate(135deg) translateY(8.5px);
+    -webkit-transform: rotate(135deg) translateY(8.5px);
+    transform: rotate(135deg) translateY(8.5px); }
+  /* line 1781, /JOBS/Braindrain/src/css/style.scss */
+  .signin {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/signin.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin: 12px; }
+  /* line 1790, /JOBS/Braindrain/src/css/style.scss */
+  nav.navbar-fixed-top.active {
+    height: 100% !important; }
+  /* line 1793, /JOBS/Braindrain/src/css/style.scss */
+  .mobile_menu {
+    display: block;
+    text-align: center; }
+    /* line 1796, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu .top_mob_nav {
+      display: block;
+      width: 100%; }
+    /* line 1800, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu .social_mobile, .mobile_menu .phone_mobile {
+      display: block;
+      width: 50%;
+      float: left;
+      height: 20px; }
+    /* line 1806, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu .social_mobile {
+      text-align: left;
+      padding-top: 5px;
+      padding-left: 15px; }
+      /* line 1810, /JOBS/Braindrain/src/css/style.scss */
+      .mobile_menu .social_mobile a {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        color: #883f98;
+        cursor: pointer;
+        font-size: 15px;
+        text-decoration: none; }
+    /* line 1820, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu .phone_mobile {
+      text-align: right;
+      padding-right: 10px;
+      padding-top: 5px; }
+      /* line 1824, /JOBS/Braindrain/src/css/style.scss */
+      .mobile_menu .phone_mobile a {
+        color: #883f98;
+        text-decoration: none; }
+    /* line 1829, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu a.logotype {
+      display: inline-block;
+      width: 150px;
+      height: 48px;
+      margin-left: 0px;
+      background-image: url(../images/logotype.png);
+      background-repeat: no-repeat;
+      background-size: 150px;
+      background-position: 0px 7px; }
+    /* line 1839, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu ul.menu {
+      display: none;
+      height: 0; }
+    /* line 1843, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu ul.sign_in {
+      display: none;
+      height: 0; }
+    /* line 1847, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu ul.menu.checked, .mobile_menu ul.sign_in.checked {
+      display: block;
+      position: absolute;
+      top: 68px;
+      left: 0;
+      right: 0;
+      height: 100%;
+      opacity: 1;
+      padding: 0;
+      background-color: rgba(0, 0, 0, 0.89); }
+      /* line 1857, /JOBS/Braindrain/src/css/style.scss */
+      .mobile_menu ul.menu.checked li, .mobile_menu ul.sign_in.checked li {
+        list-style: none;
+        text-align: left;
+        margin-left: 30px;
+        margin-right: 30px; }
+        /* line 1862, /JOBS/Braindrain/src/css/style.scss */
+        .mobile_menu ul.menu.checked li a, .mobile_menu ul.sign_in.checked li a {
+          display: inline-block;
+          padding: 10px 0;
+          color: #ffffff; }
+          /* line 1866, /JOBS/Braindrain/src/css/style.scss */
+          .mobile_menu ul.menu.checked li a:hover, .mobile_menu ul.menu.checked li a.active, .mobile_menu ul.sign_in.checked li a:hover, .mobile_menu ul.sign_in.checked li a.active {
+            color: #883f98; }
+        /* line 1871, /JOBS/Braindrain/src/css/style.scss */
+        .mobile_menu ul.menu.checked li.podmenu > a, .mobile_menu ul.sign_in.checked li.podmenu > a {
+          padding-right: 15px;
+          background-image: url(../images/podmenu.png);
+          background-repeat: no-repeat;
+          background-position: right 51%; }
+        /* line 1877, /JOBS/Braindrain/src/css/style.scss */
+        .mobile_menu ul.menu.checked li.podmenu ul, .mobile_menu ul.sign_in.checked li.podmenu ul {
+          display: none; }
+        /* line 1882, /JOBS/Braindrain/src/css/style.scss */
+        .mobile_menu ul.menu.checked li.podmenu.active > a, .mobile_menu ul.sign_in.checked li.podmenu.active > a {
+          background-image: url(../images/podmenu_active.png); }
+        /* line 1886, /JOBS/Braindrain/src/css/style.scss */
+        .mobile_menu ul.menu.checked li.podmenu.active ul, .mobile_menu ul.sign_in.checked li.podmenu.active ul {
+          display: block;
+          margin: 10px 0 10px;
+          padding: 0;
+          border-top: 1px solid #ccc;
+          border-bottom: 1px solid #ccc; }
+    /* line 1901, /JOBS/Braindrain/src/css/style.scss */
+    .mobile_menu ul.sign_in.checked li {
+      text-align: right; }
+  /* line 1905, /JOBS/Braindrain/src/css/style.scss */
+  .main_menu {
+    display: none; }
+  /* line 1908, /JOBS/Braindrain/src/css/style.scss */
+  .social {
+    display: none; }
+  /* line 1912, /JOBS/Braindrain/src/css/style.scss */
+  header {
+    margin-top: 68px; }
+    /* line 1915, /JOBS/Braindrain/src/css/style.scss */
+    header h1 {
+      font-size: 15px;
+      line-height: 20px;
+      padding-top: 30px; }
+      /* line 1919, /JOBS/Braindrain/src/css/style.scss */
+      header h1 strong {
+        font-size: 30px;
+        line-height: 50px; }
+    /* line 1924, /JOBS/Braindrain/src/css/style.scss */
+    header a.btn {
+      margin-bottom: 30px;
+      padding: 10px 30px 8px; }
+    /* line 1928, /JOBS/Braindrain/src/css/style.scss */
+    header.room {
+      height: 250px; }
+      /* line 1930, /JOBS/Braindrain/src/css/style.scss */
+      header.room .container {
+        height: 250px; }
+      /* line 1933, /JOBS/Braindrain/src/css/style.scss */
+      header.room .top {
+        margin-top: 30px; }
+      /* line 1937, /JOBS/Braindrain/src/css/style.scss */
+      header.room .bottom {
+        left: 0;
+        bottom: -80px;
+        position: relative; }
+      /* line 1943, /JOBS/Braindrain/src/css/style.scss */
+      header.room .name {
+        text-align: center;
+        font-size: 20px;
+        height: 56px; }
+      /* line 1948, /JOBS/Braindrain/src/css/style.scss */
+      header.room .levels {
+        text-align: center; }
+      /* line 1951, /JOBS/Braindrain/src/css/style.scss */
+      header.room .level {
+        display: none;
+        width: 92px;
+        height: 19px;
+        background-size: cover; }
+      /* line 1957, /JOBS/Braindrain/src/css/style.scss */
+      header.room .age, header.room .players, header.room .rating {
+        display: none;
+        margin-left: 6px;
+        padding: 5px 0 2px 25px;
+        margin-right: 0px;
+        font-size: 14px;
+        background-size: 20px; }
+      /* line 1965, /JOBS/Braindrain/src/css/style.scss */
+      header.room .col-lg-8.col-md-6.col-sm-9, header.room .col-lg-4.col-md-6.col-sm-3.text-right {
+        text-align: center;
+        width: 100%; }
+      /* line 1969, /JOBS/Braindrain/src/css/style.scss */
+      header.room .btn {
+        padding: 14px 31px 13px;
+        margin-top: 15px; }
+  /* line 1977, /JOBS/Braindrain/src/css/style.scss */
+  .rooms {
+    margin-top: 0px; }
+  /* line 1981, /JOBS/Braindrain/src/css/style.scss */
+  .rooms h3 {
+    padding: 30px 0 0px;
+    font-size: 30px;
+    line-height: 40px; }
+  /* line 1986, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item {
+    width: 99.6%;
+    margin: .4%;
+    height: 215px; }
+    /* line 1990, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .top {
+      margin-top: 0px; }
+    /* line 1993, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .name {
+      padding-left: 0;
+      padding-top: 10px;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: left;
+      width: 50%;
+      display: inline-block; }
+    /* line 2002, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .level {
+      width: 92px;
+      height: 19px;
+      background-size: cover; }
+    /* line 2007, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .levels {
+      padding-right: 0;
+      width: 50%;
+      float: right;
+      margin-top: 11px;
+      text-align: right; }
+    /* line 2014, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .bottom {
+      left: 0;
+      width: 100%;
+      padding: 0 10px;
+      text-align: center;
+      bottom: 0; }
+    /* line 2021, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
+      margin-left: 0px;
+      margin-right: 5px;
+      padding: 15px 0 7px 24px;
+      font-size: 13px;
+      background-size: 20px; }
+    /* line 2028, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .col-lg-4.col-md-6.text-right {
+      display: none;
+      text-align: center; }
+    /* line 2032, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item .btn {
+      margin-bottom: -10px;
+      padding: 12px 40px 10px; }
+    /* line 2036, /JOBS/Braindrain/src/css/style.scss */
+    .rooms .room_item:nth-child(odd) {
+      margin: .4%; }
+  /* line 2041, /JOBS/Braindrain/src/css/style.scss */
+  .whatis {
+    padding-bottom: 20px; }
+    /* line 2043, /JOBS/Braindrain/src/css/style.scss */
+    .whatis h2 {
+      padding: 30px 0 15px;
+      font-size: 25px;
+      line-height: 30px; }
+    /* line 2048, /JOBS/Braindrain/src/css/style.scss */
+    .whatis p {
+      text-align: center;
+      text-indent: 0;
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0 0 15px; }
+    /* line 2055, /JOBS/Braindrain/src/css/style.scss */
+    .whatis.room {
+      margin-top: 0px;
+      padding-top: 40px; }
+  /* line 2061, /JOBS/Braindrain/src/css/style.scss */
+  .whatyougain {
+    padding-bottom: 0; }
+    /* line 2063, /JOBS/Braindrain/src/css/style.scss */
+    .whatyougain h3 {
+      font-size: 25px;
+      padding: 25px 0 20px; }
+    /* line 2067, /JOBS/Braindrain/src/css/style.scss */
+    .whatyougain .gain_item {
+      margin-bottom: 50px; }
+      /* line 2069, /JOBS/Braindrain/src/css/style.scss */
+      .whatyougain .gain_item .title {
+        font-size: 18px; }
+      /* line 2072, /JOBS/Braindrain/src/css/style.scss */
+      .whatyougain .gain_item p {
+        font-size: 15px;
+        line-height: 20px; }
+  /* line 2080, /JOBS/Braindrain/src/css/style.scss */
+  .contacts h3 {
+    font-size: 25px;
+    padding: 25px 0 5px; }
+  /* line 2084, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress, .contacts .mail, .contacts .phone {
+    padding: 0;
+    margin-bottom: 10px;
+    background: none;
+    font-size: 14px; }
+  /* line 2090, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .col-lg-4.col-md-4.col-sm-12, .contacts .col-lg-3.col-md-3.col-sm-12, .contacts .col-lg-5.col-md-5.col-sm-12.text-right {
+    text-align: center; }
+  /* line 2093, /JOBS/Braindrain/src/css/style.scss */
+  .contacts #map {
+    margin-top: 0;
+    height: 200px; }
+  /* line 2097, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .footer {
+    padding: 20px 0 10px; }
+  /* line 2100, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .footer .copyrights, .contacts .footer .terms {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  /* line 2107, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .footer .authors, .contacts .terms {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 10px; }
+  /* line 2113, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .terms {
+    margin-top: 10px; }
+  /* line 2117, /JOBS/Braindrain/src/css/style.scss */
+  .booknow h3 {
+    padding: 40px 0 10px;
+    font-size: 30px; }
+  /* line 2121, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
+    font-size: 10px; }
+  /* line 2124, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  /* line 2129, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .day {
+    display: block;
+    width: 100%; }
+  /* line 2133, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .day .date_day {
+    padding: 10px 0 6px;
+    margin-top: 0px; }
+  /* line 2137, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+    text-align: center;
+    position: relative; }
+  /* line 2146, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places,
+  .booknow #calendar .calendar_day .hour .price,
+  .booknow #calendar .calendar_day .hour .time {
+    display: inline-block;
+    position: absolute; }
+  /* line 2150, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour a {
+    padding: 2px 0; }
+  /* line 2153, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places {
+    right: 20px;
+    top: 12px; }
+  /* line 2157, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .time {
+    position: absolute;
+    left: 20px; }
+  /* line 2161, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .price {
+    right: 0px;
+    position: relative;
+    padding: 10px 0; }
+  /* line 2167, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .btn.calendar {
+    margin-bottom: 0;
+    margin-left: 0; }
+  /* line 2171, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour a .time {
+    font-size: 18px; }
+  /* line 2174, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .next_week a::after, .booknow .weeks .prev_week a::before {
+    top: -1px; }
+  /* line 2177, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .prev_week a::before {
+    left: -35px; }
+  /* line 2180, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .next_week a::after {
+    right: -35px; }
+  /* line 2183, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .next_week, .booknow .weeks .prev_week {
+    font-size: 10px; }
+  /* line 2186, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .week {
+    margin: 0 10px;
+    font-size: 14px; }
+  /* line 2190, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
+    opacity: 1; } }
+
+@media (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  /* line 2198, /JOBS/Braindrain/src/css/style.scss */
+  nav .top_nav {
+    padding: 7px 0; }
+  /* line 2201, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu a.logotype {
+    margin: 7px 0; }
+  /* line 2204, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li a {
+    padding: 32px 0 0; }
+  /* line 2207, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .menu li.podmenu.active ul, nav .main_menu .menu li.podmenu:hover ul {
+    top: 38px; }
+  /* line 2210, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .phone {
+    margin: 29px 0 0; }
+  /* line 2213, /JOBS/Braindrain/src/css/style.scss */
+  nav .main_menu .callback {
+    margin: 12px 0 0; }
+  /* line 2216, /JOBS/Braindrain/src/css/style.scss */
+  header.room .top {
+    margin-top: 180px !important; }
+  /* line 2220, /JOBS/Braindrain/src/css/style.scss */
+  header h1 {
+    padding-top: 200px; }
+  /* line 2223, /JOBS/Braindrain/src/css/style.scss */
+  header.room {
+    height: 600px; }
+    /* line 2225, /JOBS/Braindrain/src/css/style.scss */
+    header.room .container {
+      height: 600px; }
+    /* line 2228, /JOBS/Braindrain/src/css/style.scss */
+    header.room .top {
+      margin-top: 175px; }
+    /* line 2231, /JOBS/Braindrain/src/css/style.scss */
+    header.room .bottom {
+      left: 0;
+      bottom: -60px; }
+  /* line 2236, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .day .date_day {
+    font-size: 16px; }
+  /* line 2239, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
+    font-size: 12px; }
+  /* line 2242, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour a .time {
+    font-size: 14px; } }
+
+@media (width: 768px) and (height: 1024px) and (orientation: portrait) {
+  /* line 2248, /JOBS/Braindrain/src/css/style.scss */
+  header h1 {
+    font-size: 25px;
+    line-height: 30px; }
+    /* line 2251, /JOBS/Braindrain/src/css/style.scss */
+    header h1 strong {
+      font-size: 50px;
+      line-height: 110px; }
+  /* line 2256, /JOBS/Braindrain/src/css/style.scss */
+  header a.btn {
+    padding: 20px 30px 18px; }
+  /* line 2259, /JOBS/Braindrain/src/css/style.scss */
+  header.room {
+    height: 500px; }
+    /* line 2261, /JOBS/Braindrain/src/css/style.scss */
+    header.room .container {
+      height: 500px; }
+    /* line 2264, /JOBS/Braindrain/src/css/style.scss */
+    header.room .name {
+      font-size: 50px;
+      line-height: 50px; }
+    /* line 2268, /JOBS/Braindrain/src/css/style.scss */
+    header.room .top {
+      margin-top: 35px; }
+    /* line 2271, /JOBS/Braindrain/src/css/style.scss */
+    header.room .bottom {
+      left: 0;
+      bottom: 0px;
+      position: absolute; }
+    /* line 2276, /JOBS/Braindrain/src/css/style.scss */
+    header.room .age, header.room .players, header.room .rating {
+      margin-right: 0;
+      margin-left: 20px;
+      padding: 27px 0 16px 45px;
+      color: #fff;
+      font-size: 16px;
+      background-size: 35px; }
+    /* line 2284, /JOBS/Braindrain/src/css/style.scss */
+    header.room .level {
+      width: 181px;
+      height: 38px; }
+  /* line 2289, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item {
+    height: 350px; }
+  /* line 2292, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
+    font-size: 20px;
+    background-size: 30px;
+    padding: 12px 15px 7px 39px; }
+  /* line 2297, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item .level {
+    width: 157px;
+    height: 33px; }
+  /* line 2301, /JOBS/Braindrain/src/css/style.scss */
+  .rooms .room_item .btn {
+    padding: 18px 40px 16px; }
+  /* line 2304, /JOBS/Braindrain/src/css/style.scss */
+  .whatyougain .gain_item .title {
+    font-size: 25px; }
+  /* line 2307, /JOBS/Braindrain/src/css/style.scss */
+  .whatis p, .whatyougain .gain_item p {
+    font-size: 18px;
+    line-height: 22px; }
+  /* line 2311, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .adress, .contacts .mail, .contacts .phone {
+    margin-bottom: 15px;
+    font-size: 20px; }
+  /* line 2315, /JOBS/Braindrain/src/css/style.scss */
+  .contacts #map {
+    height: 400px; }
+  /* line 2319, /JOBS/Braindrain/src/css/style.scss */
+  .whatyougain h3 {
+    font-size: 35px; }
+  /* line 2322, /JOBS/Braindrain/src/css/style.scss */
+  .whatis h2 {
+    font-size: 35px;
+    line-height: 40px; }
+  /* line 2326, /JOBS/Braindrain/src/css/style.scss */
+  .contacts h3 {
+    font-size: 35px;
+    line-height: 70px; }
+  /* line 2330, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .footer .copyrights, .contacts .footer .terms {
+    font-size: 15px; }
+  /* line 2333, /JOBS/Braindrain/src/css/style.scss */
+  .contacts .footer .authors {
+    font-size: 15px;
+    margin: 20px 0; }
+  /* line 2337, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day {
+    display: block; }
+  /* line 2340, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .day {
+    display: block; }
+  /* line 2343, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .day .date_day {
+    padding: 20px 0;
+    margin-top: 50px; }
+  /* line 2347, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour {
+    display: inline-block;
+    width: 24.63%;
+    margin-top: 2px; }
+  /* line 2352, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .btn.calendar {
+    margin-bottom: 0; }
+  /* line 2355, /JOBS/Braindrain/src/css/style.scss */
+  .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
+    font-size: 15px; }
+  /* line 2358, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .next_week, .booknow .weeks .prev_week {
+    font-size: 15px; }
+  /* line 2361, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .week {
+    font-size: 30px;
+    margin: 0 50px; }
+  /* line 2365, /JOBS/Braindrain/src/css/style.scss */
+  .booknow .weeks .next_week a::after, .booknow .weeks .prev_week a::before {
+    top: 2px; } }
+
+/*# sourceMappingURL=style.css.map */
