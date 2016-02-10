@@ -1912,79 +1912,80 @@ header {
       padding-left: 0px; }
     /* line 1822, /JOBS/braindrainescape.com/css/style.scss */
     .contacts.page .btn {
+      font-size: 15px;
       width: 100%;
       margin-bottom: 30px; }
-    /* line 1826, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1827, /JOBS/braindrainescape.com/css/style.scss */
     .contacts.page .btn.gren {
       margin-left: 0px; }
-    /* line 1829, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1830, /JOBS/braindrainescape.com/css/style.scss */
     .contacts.page .social {
       position: static;
       float: right;
       width: auto;
       margin-top: 50px; }
-      /* line 1834, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1835, /JOBS/braindrainescape.com/css/style.scss */
       .contacts.page .social a {
         display: inline-block; }
-  /* line 1840, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1841, /JOBS/braindrainescape.com/css/style.scss */
   #book .left, #bookPay .left {
     display: none; }
-  /* line 1843, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1844, /JOBS/braindrainescape.com/css/style.scss */
   #book, #bookPay {
     width: 320px; }
-    /* line 1845, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1846, /JOBS/braindrainescape.com/css/style.scss */
     #book .right, #bookPay .right {
       width: 100%; }
-      /* line 1847, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1848, /JOBS/braindrainescape.com/css/style.scss */
       #book .right .date, #bookPay .right .date {
         font-size: 25px; }
-      /* line 1850, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1851, /JOBS/braindrainescape.com/css/style.scss */
       #book .right .quantity, #bookPay .right .quantity {
         margin-top: 30px;
         margin-left: 0; }
-        /* line 1853, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 1854, /JOBS/braindrainescape.com/css/style.scss */
         #book .right .quantity .text, #bookPay .right .quantity .text {
           padding: 0 6px;
           font-size: 15px; }
-        /* line 1857, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 1858, /JOBS/braindrainescape.com/css/style.scss */
         #book .right .quantity::before, #bookPay .right .quantity::before {
           display: none; }
-      /* line 1861, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1862, /JOBS/braindrainescape.com/css/style.scss */
       #book .right a.btn, #bookPay .right a.btn {
         margin-top: 30px; }
-  /* line 1866, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1867, /JOBS/braindrainescape.com/css/style.scss */
   #thanks {
     width: 320px;
     font-size: 11px;
     font-weight: 500;
     line-height: 17px; }
-    /* line 1871, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1872, /JOBS/braindrainescape.com/css/style.scss */
     #thanks .title {
       font-size: 40px; }
-    /* line 1874, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1875, /JOBS/braindrainescape.com/css/style.scss */
     #thanks .code {
       font-size: 20px; }
-  /* line 1883, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1884, /JOBS/braindrainescape.com/css/style.scss */
   .nopadding {
     padding: 0 15px; }
-  /* line 1886, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1887, /JOBS/braindrainescape.com/css/style.scss */
   .other_menu {
     text-align: center;
     margin: 10px 0; }
-  /* line 1890, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1891, /JOBS/braindrainescape.com/css/style.scss */
   nav {
     height: 68px;
     background: #120506; }
-    /* line 1894, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1895, /JOBS/braindrainescape.com/css/style.scss */
     nav .top_nav {
       display: none;
       padding: 5px 0;
       height: 48px;
       overflow: hidden; }
-      /* line 1899, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1900, /JOBS/braindrainescape.com/css/style.scss */
       nav .top_nav .lang, nav .top_nav .location, nav .top_nav .signin {
         display: none; }
-  /* line 1904, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1905, /JOBS/braindrainescape.com/css/style.scss */
   .hamburger {
     list-style: none;
     float: left;
@@ -1998,7 +1999,7 @@ header {
     -o-transition: all 233ms cubic-bezier(0.5, 0, 0, 1);
     -webkit-transition: all 233ms cubic-bezier(0.5, 0, 0, 1);
     transition: all 233ms cubic-bezier(0.5, 0, 0, 1); }
-  /* line 1918, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1919, /JOBS/braindrainescape.com/css/style.scss */
   .hamburger li {
     width: 24px;
     height: 3px;
@@ -2013,26 +2014,26 @@ header {
     -o-transition: all 333ms cubic-bezier(0.5, 0, 0, 1);
     -webkit-transition: all 333ms cubic-bezier(0.5, 0, 0, 1);
     transition: all 333ms cubic-bezier(0.5, 0, 0, 1); }
-  /* line 1933, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1934, /JOBS/braindrainescape.com/css/style.scss */
   .hamburger.checked li {
     margin: 3px 0 0; }
-  /* line 1936, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1937, /JOBS/braindrainescape.com/css/style.scss */
   .hamburger.checked li.first {
     -moz-transform: rotate(-135deg) translateY(-8.5px);
     -ms-transform: rotate(-135deg) translateY(-8.5px);
     -webkit-transform: rotate(-135deg) translateY(-8.5px);
     transform: rotate(-135deg) translateY(-8.5px); }
-  /* line 1942, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1943, /JOBS/braindrainescape.com/css/style.scss */
   .hamburger.checked li.second {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0; }
-  /* line 1946, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1947, /JOBS/braindrainescape.com/css/style.scss */
   .hamburger.checked li.third {
     -moz-transform: rotate(135deg) translateY(8.5px);
     -ms-transform: rotate(135deg) translateY(8.5px);
     -webkit-transform: rotate(135deg) translateY(8.5px);
     transform: rotate(135deg) translateY(8.5px); }
-  /* line 1952, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1953, /JOBS/braindrainescape.com/css/style.scss */
   .signin {
     display: inline-block;
     width: 25px;
@@ -2041,29 +2042,29 @@ header {
     background-repeat: no-repeat;
     float: right;
     margin: 12px; }
-  /* line 1961, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1962, /JOBS/braindrainescape.com/css/style.scss */
   nav.navbar-fixed-top.active {
     height: 100% !important; }
-  /* line 1964, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 1965, /JOBS/braindrainescape.com/css/style.scss */
   .mobile_menu {
     display: block;
     text-align: center; }
-    /* line 1967, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1968, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu .top_mob_nav {
       display: block;
       width: 100%; }
-    /* line 1971, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1972, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu .social_mobile, .mobile_menu .phone_mobile {
       display: block;
       width: 50%;
       float: left;
       height: 20px; }
-    /* line 1977, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1978, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu .social_mobile {
       text-align: left;
       padding-top: 5px;
       padding-left: 15px; }
-      /* line 1981, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1982, /JOBS/braindrainescape.com/css/style.scss */
       .mobile_menu .social_mobile a {
         display: inline-block;
         width: 20px;
@@ -2072,16 +2073,16 @@ header {
         cursor: pointer;
         font-size: 15px;
         text-decoration: none; }
-    /* line 1991, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 1992, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu .phone_mobile {
       text-align: right;
       padding-right: 10px;
       padding-top: 5px; }
-      /* line 1995, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 1996, /JOBS/braindrainescape.com/css/style.scss */
       .mobile_menu .phone_mobile a {
         color: #883f98;
         text-decoration: none; }
-    /* line 2000, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2001, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu a.logotype {
       display: inline-block;
       width: 150px;
@@ -2091,15 +2092,15 @@ header {
       background-repeat: no-repeat;
       background-size: 150px;
       background-position: 0px 7px; }
-    /* line 2010, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2011, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu ul.menu {
       display: none;
       height: 0; }
-    /* line 2014, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2015, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu ul.sign_in {
       display: none;
       height: 0; }
-    /* line 2018, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2019, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu ul.menu.checked, .mobile_menu ul.sign_in.checked {
       display: block;
       position: absolute;
@@ -2110,93 +2111,93 @@ header {
       opacity: 1;
       padding: 0;
       background-color: rgba(0, 0, 0, 0.89); }
-      /* line 2028, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2029, /JOBS/braindrainescape.com/css/style.scss */
       .mobile_menu ul.menu.checked li, .mobile_menu ul.sign_in.checked li {
         list-style: none;
         text-align: left;
         margin-left: 30px;
         margin-right: 30px; }
-        /* line 2033, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 2034, /JOBS/braindrainescape.com/css/style.scss */
         .mobile_menu ul.menu.checked li a, .mobile_menu ul.sign_in.checked li a {
           display: inline-block;
           padding: 10px 0;
           color: #ffffff; }
-          /* line 2037, /JOBS/braindrainescape.com/css/style.scss */
+          /* line 2038, /JOBS/braindrainescape.com/css/style.scss */
           .mobile_menu ul.menu.checked li a:hover, .mobile_menu ul.menu.checked li a.active, .mobile_menu ul.sign_in.checked li a:hover, .mobile_menu ul.sign_in.checked li a.active {
             color: #883f98; }
-        /* line 2042, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 2043, /JOBS/braindrainescape.com/css/style.scss */
         .mobile_menu ul.menu.checked li.podmenu > a, .mobile_menu ul.sign_in.checked li.podmenu > a {
           padding-right: 15px;
           background-image: url(../images/podmenu.png);
           background-repeat: no-repeat;
           background-position: right 51%; }
-        /* line 2048, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 2049, /JOBS/braindrainescape.com/css/style.scss */
         .mobile_menu ul.menu.checked li.podmenu ul, .mobile_menu ul.sign_in.checked li.podmenu ul {
           display: none; }
-        /* line 2053, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 2054, /JOBS/braindrainescape.com/css/style.scss */
         .mobile_menu ul.menu.checked li.podmenu.active > a, .mobile_menu ul.sign_in.checked li.podmenu.active > a {
           background-image: url(../images/podmenu_active.png); }
-        /* line 2057, /JOBS/braindrainescape.com/css/style.scss */
+        /* line 2058, /JOBS/braindrainescape.com/css/style.scss */
         .mobile_menu ul.menu.checked li.podmenu.active ul, .mobile_menu ul.sign_in.checked li.podmenu.active ul {
           display: block;
           margin: 10px 0 10px;
           padding: 0;
           border-top: 1px solid #ccc;
           border-bottom: 1px solid #ccc; }
-    /* line 2072, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2073, /JOBS/braindrainescape.com/css/style.scss */
     .mobile_menu ul.sign_in.checked li {
       text-align: right; }
-  /* line 2076, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2077, /JOBS/braindrainescape.com/css/style.scss */
   .main_menu {
     display: none; }
-  /* line 2079, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2080, /JOBS/braindrainescape.com/css/style.scss */
   .social {
     display: none; }
-  /* line 2083, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2084, /JOBS/braindrainescape.com/css/style.scss */
   header {
     margin-top: 68px; }
-    /* line 2086, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2087, /JOBS/braindrainescape.com/css/style.scss */
     header h1 {
       font-size: 15px;
       line-height: 20px;
       padding-top: 30px; }
-      /* line 2090, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2091, /JOBS/braindrainescape.com/css/style.scss */
       header h1 strong {
         font-size: 30px;
         line-height: 50px; }
-    /* line 2095, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2096, /JOBS/braindrainescape.com/css/style.scss */
     header a.btn {
       margin-bottom: 30px;
       padding: 10px 30px 8px; }
-    /* line 2099, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2100, /JOBS/braindrainescape.com/css/style.scss */
     header.room {
       height: 250px; }
-      /* line 2101, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2102, /JOBS/braindrainescape.com/css/style.scss */
       header.room .container {
         height: 250px; }
-      /* line 2104, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2105, /JOBS/braindrainescape.com/css/style.scss */
       header.room .top {
         margin-top: 30px; }
-      /* line 2108, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2109, /JOBS/braindrainescape.com/css/style.scss */
       header.room .bottom {
         left: 0;
         bottom: -80px;
         position: relative; }
-      /* line 2114, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2115, /JOBS/braindrainescape.com/css/style.scss */
       header.room .name {
         text-align: center;
         font-size: 20px;
         height: 56px; }
-      /* line 2119, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2120, /JOBS/braindrainescape.com/css/style.scss */
       header.room .levels {
         text-align: center; }
-      /* line 2122, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2123, /JOBS/braindrainescape.com/css/style.scss */
       header.room .level {
         display: none;
         width: 92px;
         height: 19px;
         background-size: cover; }
-      /* line 2128, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2129, /JOBS/braindrainescape.com/css/style.scss */
       header.room .age, header.room .players, header.room .rating {
         display: none;
         margin-left: 6px;
@@ -2204,31 +2205,31 @@ header {
         margin-right: 0px;
         font-size: 14px;
         background-size: 20px; }
-      /* line 2136, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2137, /JOBS/braindrainescape.com/css/style.scss */
       header.room .col-lg-8.col-md-6.col-sm-9, header.room .col-lg-4.col-md-6.col-sm-3.text-right {
         text-align: center;
         width: 100%; }
-      /* line 2140, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2141, /JOBS/braindrainescape.com/css/style.scss */
       header.room .btn {
         padding: 14px 31px 13px;
         margin-top: 15px; }
-  /* line 2148, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2149, /JOBS/braindrainescape.com/css/style.scss */
   .rooms {
     margin-top: 0px; }
-  /* line 2152, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2153, /JOBS/braindrainescape.com/css/style.scss */
   .rooms h3 {
     padding: 30px 0 0px;
     font-size: 30px;
     line-height: 40px; }
-  /* line 2157, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2158, /JOBS/braindrainescape.com/css/style.scss */
   .rooms .room_item {
     width: 99.6%;
     margin: .4%;
     height: 215px; }
-    /* line 2161, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2162, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .top {
       margin-top: 0px; }
-    /* line 2164, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2165, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .name {
       padding-left: 0;
       padding-top: 10px;
@@ -2237,270 +2238,270 @@ header {
       text-align: left;
       width: 50%;
       display: inline-block; }
-    /* line 2173, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2174, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .level {
       width: 92px;
       height: 19px;
       background-size: cover; }
-    /* line 2178, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2179, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .levels {
       padding-right: 0;
       width: 50%;
       float: right;
       margin-top: 11px;
       text-align: right; }
-    /* line 2185, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2186, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .bottom {
       left: 0;
       width: 100%;
       padding: 0 10px;
       text-align: center;
       bottom: 0; }
-    /* line 2192, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2193, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
       margin-left: 0px;
       margin-right: 5px;
       padding: 15px 0 7px 24px;
       font-size: 13px;
       background-size: 20px; }
-    /* line 2199, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2200, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .col-lg-4.col-md-6.text-right {
       display: none;
       text-align: center; }
-    /* line 2203, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2204, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item .btn {
       margin-bottom: -10px;
       padding: 12px 40px 10px; }
-    /* line 2207, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2208, /JOBS/braindrainescape.com/css/style.scss */
     .rooms .room_item:nth-child(odd) {
       margin: .4%; }
-  /* line 2212, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2213, /JOBS/braindrainescape.com/css/style.scss */
   .whatis {
     padding-bottom: 20px; }
-    /* line 2214, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2215, /JOBS/braindrainescape.com/css/style.scss */
     .whatis h2 {
       padding: 30px 0 15px;
       font-size: 25px;
       line-height: 30px; }
-    /* line 2219, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2220, /JOBS/braindrainescape.com/css/style.scss */
     .whatis p {
       text-align: center;
       text-indent: 0;
       font-size: 14px;
       line-height: 18px;
       margin: 0 0 15px; }
-    /* line 2226, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2227, /JOBS/braindrainescape.com/css/style.scss */
     .whatis.room {
       margin-top: 0px;
       padding-top: 40px; }
-  /* line 2232, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2233, /JOBS/braindrainescape.com/css/style.scss */
   .whatyougain {
     padding-bottom: 0; }
-    /* line 2234, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2235, /JOBS/braindrainescape.com/css/style.scss */
     .whatyougain h3 {
       font-size: 25px;
       padding: 25px 0 20px; }
-    /* line 2238, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2239, /JOBS/braindrainescape.com/css/style.scss */
     .whatyougain .gain_item {
       margin-bottom: 50px; }
-      /* line 2240, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2241, /JOBS/braindrainescape.com/css/style.scss */
       .whatyougain .gain_item .title {
         font-size: 18px; }
-      /* line 2243, /JOBS/braindrainescape.com/css/style.scss */
+      /* line 2244, /JOBS/braindrainescape.com/css/style.scss */
       .whatyougain .gain_item p {
         font-size: 15px;
         line-height: 20px; }
-  /* line 2251, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2252, /JOBS/braindrainescape.com/css/style.scss */
   .contacts h3 {
     font-size: 25px;
     padding: 25px 0 5px; }
-  /* line 2255, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2256, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .adress, .contacts .mail, .contacts .phone {
     padding: 0;
     margin-bottom: 10px;
     background: none;
     font-size: 14px; }
-  /* line 2261, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2262, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .col-lg-4.col-md-4.col-sm-12, .contacts .col-lg-3.col-md-3.col-sm-12, .contacts .col-lg-5.col-md-5.col-sm-12.text-right {
     text-align: center; }
-  /* line 2264, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2265, /JOBS/braindrainescape.com/css/style.scss */
   .contacts #map {
     margin-top: 0;
     height: 200px; }
-  /* line 2268, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2269, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .footer {
     padding: 20px 0 10px; }
-  /* line 2271, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2272, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .footer .copyrights, .contacts .footer .terms {
     width: 100%;
     text-align: center;
     font-size: 10px;
     margin-bottom: 0;
     margin-top: 0; }
-  /* line 2278, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2279, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .footer .authors, .contacts .terms {
     display: inline-block;
     width: 100%;
     text-align: center;
     font-size: 10px; }
-  /* line 2284, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2285, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .terms {
     margin-top: 10px; }
-  /* line 2288, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2289, /JOBS/braindrainescape.com/css/style.scss */
   .booknow h3 {
     padding: 40px 0 10px;
     font-size: 30px; }
-  /* line 2292, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2293, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
     font-size: 10px; }
-  /* line 2295, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2296, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day {
     display: block;
     margin-top: 20px;
     margin-bottom: 30px; }
-  /* line 2300, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2301, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .day {
     display: block;
     width: 100%; }
-  /* line 2304, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2305, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .day .date_day {
     padding: 10px 0 6px;
     margin-top: 0px; }
-  /* line 2308, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2309, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour {
     display: inline-block;
     width: 100%;
     margin-top: 2px;
     text-align: center;
     position: relative; }
-  /* line 2317, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2318, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .places,
   .booknow #calendar .calendar_day .hour .price,
   .booknow #calendar .calendar_day .hour .time {
     display: inline-block;
     position: absolute; }
-  /* line 2321, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2322, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour a {
     padding: 2px 0; }
-  /* line 2324, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2325, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .places {
     right: 20px;
     top: 12px; }
-  /* line 2328, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2329, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .time {
     position: absolute;
     left: 20px; }
-  /* line 2332, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2333, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .price {
     right: 0px;
     position: relative;
     padding: 10px 0; }
-  /* line 2338, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2339, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .btn.calendar {
     margin-bottom: 0;
     margin-left: 0; }
-  /* line 2342, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2343, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour a .time {
     font-size: 18px; }
-  /* line 2345, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2346, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .next_week a::after, .booknow .weeks .prev_week a::before {
     top: -1px; }
-  /* line 2348, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2349, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .prev_week a::before {
     left: -35px; }
-  /* line 2351, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2352, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .next_week a::after {
     right: -35px; }
-  /* line 2354, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2355, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .next_week, .booknow .weeks .prev_week {
     font-size: 10px; }
-  /* line 2357, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2358, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .week {
     margin: 0 10px;
     font-size: 14px; }
-  /* line 2361, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2362, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
     opacity: 1; } }
 
 @media (width: 1024px) and (height: 768px) and (orientation: landscape) {
-  /* line 2369, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2370, /JOBS/braindrainescape.com/css/style.scss */
   nav .top_nav {
     padding: 7px 0; }
-  /* line 2372, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2373, /JOBS/braindrainescape.com/css/style.scss */
   nav .main_menu a.logotype {
     margin: 7px 0; }
-  /* line 2375, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2376, /JOBS/braindrainescape.com/css/style.scss */
   nav .main_menu .menu li a {
     padding: 32px 0 0; }
-  /* line 2378, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2379, /JOBS/braindrainescape.com/css/style.scss */
   nav .main_menu .menu li.podmenu.active ul, nav .main_menu .menu li.podmenu:hover ul {
     top: 38px; }
-  /* line 2381, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2382, /JOBS/braindrainescape.com/css/style.scss */
   nav .main_menu .phone {
     margin: 29px 0 0; }
-  /* line 2384, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2385, /JOBS/braindrainescape.com/css/style.scss */
   nav .main_menu .callback {
     margin: 12px 0 0; }
-  /* line 2387, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2388, /JOBS/braindrainescape.com/css/style.scss */
   header.room .top {
     margin-top: 180px !important; }
-  /* line 2391, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2392, /JOBS/braindrainescape.com/css/style.scss */
   header h1 {
     padding-top: 200px; }
-  /* line 2394, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2395, /JOBS/braindrainescape.com/css/style.scss */
   header.room {
     height: 600px; }
-    /* line 2396, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2397, /JOBS/braindrainescape.com/css/style.scss */
     header.room .container {
       height: 600px; }
-    /* line 2399, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2400, /JOBS/braindrainescape.com/css/style.scss */
     header.room .top {
       margin-top: 175px; }
-    /* line 2402, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2403, /JOBS/braindrainescape.com/css/style.scss */
     header.room .bottom {
       left: 0;
       bottom: -60px; }
-  /* line 2407, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2408, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .day .date_day {
     font-size: 16px; }
-  /* line 2410, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2411, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
     font-size: 12px; }
-  /* line 2413, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2414, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour a .time {
     font-size: 14px; } }
 
 @media (width: 768px) and (height: 1024px) and (orientation: portrait) {
-  /* line 2419, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2420, /JOBS/braindrainescape.com/css/style.scss */
   header h1 {
     font-size: 25px;
     line-height: 30px; }
-    /* line 2422, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2423, /JOBS/braindrainescape.com/css/style.scss */
     header h1 strong {
       font-size: 50px;
       line-height: 110px; }
-  /* line 2427, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2428, /JOBS/braindrainescape.com/css/style.scss */
   header a.btn {
     padding: 20px 30px 18px; }
-  /* line 2430, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2431, /JOBS/braindrainescape.com/css/style.scss */
   header.room {
     height: 500px; }
-    /* line 2432, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2433, /JOBS/braindrainescape.com/css/style.scss */
     header.room .container {
       height: 500px; }
-    /* line 2435, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2436, /JOBS/braindrainescape.com/css/style.scss */
     header.room .name {
       font-size: 50px;
       line-height: 50px; }
-    /* line 2439, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2440, /JOBS/braindrainescape.com/css/style.scss */
     header.room .top {
       margin-top: 35px; }
-    /* line 2442, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2443, /JOBS/braindrainescape.com/css/style.scss */
     header.room .bottom {
       left: 0;
       bottom: 0px;
       position: absolute; }
-    /* line 2447, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2448, /JOBS/braindrainescape.com/css/style.scss */
     header.room .age, header.room .players, header.room .rating {
       margin-right: 0;
       margin-left: 20px;
@@ -2508,86 +2509,86 @@ header {
       color: #fff;
       font-size: 16px;
       background-size: 35px; }
-    /* line 2455, /JOBS/braindrainescape.com/css/style.scss */
+    /* line 2456, /JOBS/braindrainescape.com/css/style.scss */
     header.room .level {
       width: 181px;
       height: 38px; }
-  /* line 2460, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2461, /JOBS/braindrainescape.com/css/style.scss */
   .rooms .room_item {
     height: 350px; }
-  /* line 2463, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2464, /JOBS/braindrainescape.com/css/style.scss */
   .rooms .room_item .age, .rooms .room_item .players, .rooms .room_item .rating {
     font-size: 20px;
     background-size: 30px;
     padding: 12px 15px 7px 39px; }
-  /* line 2468, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2469, /JOBS/braindrainescape.com/css/style.scss */
   .rooms .room_item .level {
     width: 157px;
     height: 33px; }
-  /* line 2472, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2473, /JOBS/braindrainescape.com/css/style.scss */
   .rooms .room_item .btn {
     padding: 18px 40px 16px; }
-  /* line 2475, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2476, /JOBS/braindrainescape.com/css/style.scss */
   .whatyougain .gain_item .title {
     font-size: 25px; }
-  /* line 2478, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2479, /JOBS/braindrainescape.com/css/style.scss */
   .whatis p, .whatyougain .gain_item p {
     font-size: 18px;
     line-height: 22px; }
-  /* line 2482, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2483, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .adress, .contacts .mail, .contacts .phone {
     margin-bottom: 15px;
     font-size: 20px; }
-  /* line 2486, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2487, /JOBS/braindrainescape.com/css/style.scss */
   .contacts #map {
     height: 400px; }
-  /* line 2490, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2491, /JOBS/braindrainescape.com/css/style.scss */
   .whatyougain h3 {
     font-size: 35px; }
-  /* line 2493, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2494, /JOBS/braindrainescape.com/css/style.scss */
   .whatis h2 {
     font-size: 35px;
     line-height: 40px; }
-  /* line 2497, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2498, /JOBS/braindrainescape.com/css/style.scss */
   .contacts h3 {
     font-size: 35px;
     line-height: 70px; }
-  /* line 2501, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2502, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .footer .copyrights, .contacts .footer .terms {
     font-size: 15px; }
-  /* line 2504, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2505, /JOBS/braindrainescape.com/css/style.scss */
   .contacts .footer .authors {
     font-size: 15px;
     margin: 20px 0; }
-  /* line 2508, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2509, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day {
     display: block; }
-  /* line 2511, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2512, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .day {
     display: block; }
-  /* line 2514, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2515, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .day .date_day {
     padding: 20px 0;
     margin-top: 50px; }
-  /* line 2518, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2519, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour {
     display: inline-block;
     width: 24.63%;
     margin-top: 2px; }
-  /* line 2523, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2524, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .btn.calendar {
     margin-bottom: 0; }
-  /* line 2526, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2527, /JOBS/braindrainescape.com/css/style.scss */
   .booknow #calendar .calendar_day .hour .places, .booknow #calendar .calendar_day .hour .price {
     font-size: 15px; }
-  /* line 2529, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2530, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .next_week, .booknow .weeks .prev_week {
     font-size: 15px; }
-  /* line 2532, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2533, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .week {
     font-size: 30px;
     margin: 0 50px; }
-  /* line 2536, /JOBS/braindrainescape.com/css/style.scss */
+  /* line 2537, /JOBS/braindrainescape.com/css/style.scss */
   .booknow .weeks .next_week a::after, .booknow .weeks .prev_week a::before {
     top: 2px; } }
 
