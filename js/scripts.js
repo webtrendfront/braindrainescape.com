@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    //Tabs
+    $(".tabs").lightTabs();
+    
+    
 	//Scroll To
 	$("a.scrollto").click(function () {
         elementClick = jQuery(this).attr("href");
@@ -71,6 +75,7 @@ $(document).ready(function(){
 	$('.booknow a').on('click', function() {
 		return false;
 	});
+    
     
 
 });	
