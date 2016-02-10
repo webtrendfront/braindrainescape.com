@@ -42,6 +42,20 @@ a.btn {
 		border-color:$green;
 	}
 }
+a.btn.gren {
+    background-color:$green;
+    color:$white;
+    border-color:$green;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $white;
+        color:$green;
+        border-color:$white;
+    }
+}
 .title {
 	font-family: $mayker;
 	text-transform:uppercase;
@@ -790,6 +804,25 @@ header {
 }
 
 .contacts {
+    &.page {
+        padding-top: 160px;
+        .phone, .mail, .adress {
+            margin-bottom: 20px;
+            padding-left: 100px;
+        }
+        .btn.gren {
+            margin-left: 20px;
+        }
+        .social {
+            position: static;
+            float: right;
+            width: auto;
+            margin-top: 50px;
+            a {
+                display: inline-block;
+            }
+        }
+    }
 	background-image:url(../images/contacts_bg.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -1622,6 +1655,12 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
+    .contacts.page {
+        .btn {
+           font-size: 14px;
+        }
+        
+    }
 	.contacts .adress, .contacts .mail, .contacts .phone {
 		font-size:13px;
 		padding-left:53px;
@@ -1666,6 +1705,34 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/p
 
 //Iphones & phones
 @media (min-width: 320px) and (max-width: 991px) {
+    
+    .contacts.page {
+        padding-top: 80px;
+        .col-lg-6.col-md-6.col-sm-12 {
+            text-align: center;
+        }
+        .phone, .mail, .adress {
+            margin-bottom: 20px;
+            padding-left: 0px;
+        }
+        .btn {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .btn.gren {
+            margin-left: 0px;
+        }
+        .social {
+            position: static;
+            float: right;
+            width: auto;
+            margin-top: 50px;
+            a {
+                display: inline-block;
+            }
+        }
+    }
+    
 	#book .left, #bookPay .left {
 		display:none;
 	}
