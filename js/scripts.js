@@ -2,6 +2,10 @@ $(document).ready(function(){
     //Tabs
     $(".tabs").lightTabs();
     
+    //FAQ
+    $("section.faq li").click(function () {
+       $(this).toggleClass('active');
+    });
     
 	//Scroll To
 	$("a.scrollto").click(function () {
